@@ -102,3 +102,36 @@ Through the analysis of the QGIS underlying code, my professional knowledge has 
 
 In terms of practical skills, I have learned how to locate and analyze the source code of large open-source projects, enhancing my ability to interpret C++ code and understand the underlying mechanisms of GIS software. At the same time, completing various analysis tasks according to experimental requirements has cultivated rigorous logical thinking and systematic problem-solving abilities, laying a solid foundation for future software development and research in related fields.
 在实践能力方面，学会了如何查找和分析大型开源项目的源代码，提升了对 C++ 代码的解读能力和对 GIS 软件底层机制的认知。同时，按照实验要求完成各项分析任务，培养了严谨的逻辑思维和系统分析问题的能力，为今后从事相关软件开发和研究奠定了坚实基础。
+
+# 5."WiFi and Bluetooth Positioning Experiment.pdf"
+# 5."WIFI和蓝牙定位实验.pdf"
+
+This article is a WiFi and Bluetooth positioning experiment report jointly completed by Wang Yi, Luo Huiming, and Zhang Heng, focusing on the research of WiFi and Bluetooth signal attenuation models and positioning performance.
+本文是由王逸、罗慧铭、张恒共同完成的 WiFi 和蓝牙定位实验报告，围绕 WiFi 和蓝牙信号的衰减模型及定位性能展开研究。
+
+The experimental objectives are clear: use an Android app to collect WiFi and Bluetooth iBeacon data, collect sampling points at certain intervals, design an indoor signal propagation model formula and calculate parameters, evaluate positioning errors, and compare the positioning parameters and performance of the two.
+实验目的明确，需使用 Android app 采集 WiFi 和蓝牙 ibeacon 数据，间隔一定间距采集采样点，设计信号室内传播模型公式并计算参数，评估定位误差，对比两者的定位参数和性能。
+
+The theoretical review section introduces Location-Based Services (LBS), points out various indoor positioning technologies and the advantages of WiFi positioning, explains positioning principles such as RSSI, TOA, and TDOA, and focuses on comparing WiFi and Bluetooth in terms of signal attenuation, navigation and positioning application characteristics, RSSI indicators, signal characteristics, positioning errors, and applicable scopes. It also mentions that the combined use of the two can improve positioning effectiveness.
+理论综述部分介绍了基于位置的服务（LBS），指出室内定位技术的多种方式及 WiFi 定位的优势，阐述了 RSSI、TOA、TDOA 等定位原理，重点对比了 WiFi 和蓝牙在信号衰减、导航定位应用特点、RSSI 指标、信号特性、定位误差及适用范围等方面的差异，并提到两者融合使用可提升定位效果。
+
+The experimental environment selected two locations: an indoor area (a unilaterally enclosed corridor) and an outdoor area (basically unobstructed on all sides) at Shenzhen University. It analyzed factors affecting signal strength in different environments and proposed multiple variables such as vertical height and horizontal distance. During data collection, nodes were set at different positions for cases with and without obstacles, and multiple mobile phones were used to receive signals. It also pointed out the difficulties in data collection (such as mobile phone compatibility and software refresh) and limitations (such as unknown transmission power and few data points).
+实验环境选取了深圳大学室内（单侧封闭走廊）和室外（四周基本无遮挡）两处地点，分析了不同环境下影响信号强度的因素，拟定了垂直高度、水平距离等多个变量。数据采集过程中，对有无障碍的情况分别按不同位置设置节点，使用多部手机接收信号，同时指出了数据采集存在的难点（如手机兼容性、软件刷新等）和局限性（如发射功率未知、数据点少等）。
+
+The loss model comparison and analysis included various models such as the free space dissipation model and the log-distance path dissipation model, ultimately selecting an improved log-distance path dissipation model. Data preprocessing involved analyzing reflection effects, multipath effects, and noise impacts, and using special methods for data filtering. Subsequently, initial data fitting and model construction verification were carried out, and the feasibility of the model was verified through classification processing and visual analysis.
+损耗模型比对分析了自由耗散模型、对数距离路径耗散模型等多种模型，最终选用改进后的对数距离路径耗散模型。数据预处理通过分析反射效应、多径效应和噪声影响，采用特殊方法进行数据筛选。之后进行了数据初拟合和模型构建验证，通过分类处理和可视化分析验证了模型的可行性。
+
+The model distribution construction and factor calculation section, based on the selected model formula, explained the parameter meanings, practical uses, and error and weighted calculation methods, and detailed the calculation process and final error analysis. The model fusion and system analysis constructed four target fusion model functions according to different scenarios, obtained corresponding n values through weighted fusion algorithms, and plotted fusion model curves.
+模型的分布构建与因子计算部分，基于所选模型公式，解释了参数含义、实际用途及误差和加权计算方法，详细展示了计算过程和最终误差分析。模型融合和系统分析则按不同场景构建了四个目标融合模型函数，通过加权融合算法得出对应 n 值并绘制融合模型曲线。
+
+The experimental summary pointed out the research results, while also mentioning the limitations of the experiment, such as the inability to obtain transmission and reception frequency data and insufficiently dense data points, and proposed directions for improvement.
+实验总结指出了研究的成果，同时提及实验存在的局限性，如无法获取发射和接收频率数据、数据点不够密集等，并提出了改进方向。
+
+Through participating in this WiFi and Bluetooth positioning experiment, I have significantly improved both in professional knowledge and practical ability. At the knowledge level, I gained a deep understanding of the basic principles of WiFi and Bluetooth positioning, became familiar with the application of RSSI indicators in positioning, mastered the characteristics and applicable scenarios of various signal attenuation models, especially the principles and calculation methods of the log-distance path dissipation model.
+通过参与本次 WiFi 和蓝牙定位实验，我在专业知识和实践能力上均有显著提升。在知识层面，深入理解了 WiFi 和蓝牙定位的基本原理，熟悉了 RSSI 指标在定位中的应用，掌握了多种信号衰减模型的特点及适用场景，尤其是对数距离路径耗散模型的原理和计算方法。
+
+In terms of practical ability, I learned to design experimental plans, including selecting experimental environments, determining variables, and collecting data, improved my ability to process and analyze experimental data, mastered methods such as data filtering, model fitting, and error analysis, and became proficient in using data visualization tools to assist analysis.
+在实践能力方面，学会了设计实验方案，包括选取实验环境、确定变量、采集数据等环节，提升了对实验数据的处理和分析能力，掌握了数据筛选、模型拟合、误差分析等方法，同时熟练运用了数据可视化手段辅助分析。
+
+In team collaboration, I enhanced communication and cooperation skills, and jointly solved various problems encountered in the experiment, such as device compatibility and data anomalies. Through this experiment, I also deeply realized the importance of rigorous experimental design and data quality, understood the limitations of existing experiments, provided ideas for future improvements and refinements in related research, and sparked further interest in exploring wireless positioning technologies.
+团队协作中，增强了沟通与合作能力，共同解决了实验中遇到的各种问题，如设备兼容性、数据异常等。通过本次实验，也深刻认识到实验设计的严谨性和数据质量的重要性，了解了现有实验的局限性，为今后相关研究的改进和完善提供了思路，激发了对无线定位技术进一步探索的兴趣。
