@@ -52,8 +52,35 @@ In terms of capability improvement, I have developed the ability to sort out and
 This study has also made me deeply appreciate the great potential of the integration of AI and IoT, laying a solid foundation for future learning and practice in related fields, and inspiring my interest in exploring the application and innovation of AIoT technology.
 此次研究也让我深刻体会到 AI 与物联网融合的巨大潜力，为今后在相关领域的学习和实践奠定了坚实基础，激发了对 AIoT 技术应用和创新的探索兴趣。
 
+# 3. "GPS定位实验.pdf"
+# 3. "GPS Positioning Experiment.pdf"
 
+This article is a report on the GPS positioning experiment, completed by a group consisting of Wang Yi, Luo Huiming, and Zhang Heng. It mainly focuses on GPS data collection, analysis, and error exploration.
+本文是关于 GPS 定位实验的报告，由王逸、罗慧铭、张恒组成的小组完成，主要围绕 GPS 数据采集、分析及误差探究展开。
 
+The objectives and requirements of the experiment are clearly defined. It requires using an Android app to collect GPS data and perform analysis. The report is to be completed in groups, with the requirement of collecting data from more than 4 different routes (covering two or more modes of transportation). After exporting the data, the GPS trajectory should be displayed in relevant software and screenshots should be taken. The positioning accuracy, error conditions, and their causes should be analyzed in conjunction with maps. Additionally, the average speed should be calculated in units of every 10 seconds, and a speed variation curve should be plotted.
+实验目的与要求明确，需使用 Android app 采集 GPS 数据并进行分析，分组完成报告，要求采集 4 条以上不同路线（覆盖两种及以上交通方式），导出数据后在相关软件中显示 GPS 轨迹并截图，结合地图分析定位精度、误差情况及原因，且按每 10 秒为单位计算平均速度并绘制速度变化曲线。
+
+In terms of experimental methods, the hardware used includes the Oppo Find X5 Pro, iPhone 13 Pro, and Honor 70 smartphones. The software includes Phyphox, MATLAB, ArcGIS 10.8.1, etc. References include "Principles of Surveying," course materials on navigation and positioning technology, and some online resources. The process methodology adopts the "Review-Practice-Compare-Learn-Analyze" model. The analysis method starts from two aspects: errors related to satellite signal propagation and errors related to satellite signal receivers, combined with satellite quantity distribution maps, trajectory multi-ring buffer analysis maps, and speed variation curve maps for analysis.
+实验方法方面，硬件采用 oppo findx5pro、iphone13pro、荣耀 70 手机，软件包括 phyphox、matlab、ArcGIS10.8.1 等；参考了《测量学原理》、导航与定位技术课程资料及部分网络资料；过程方法采用 “审 - 践 - 比 - 学 - 析” 模式；分析方法从与卫星信号传播、卫星信号接收机有关的误差两方面入手，结合卫星数量分布图、轨迹多环形缓冲区分析图及速度变化曲线图进行分析。
+
+In the experimental process and analysis section, the possible causes of errors are summarized, mainly divided into three categories: errors related to satellites, errors related to satellite signal propagation, and errors related to satellite signal receivers. It introduces the transportation modes (bicycle, walking, taxi) of the six routes and their corresponding speed variation curve maps. Based on the causes of errors, a detailed analysis is conducted on the impact of clouds, trees, buildings, etc., on signal propagation in each route, as well as the errors brought about by device status, performance and accuracy, and measurement software compatibility.
+实验过程与分析部分，概括了误差产生的可能原因，主要分为与卫星有关、与卫星信号传播有关、与卫星信号接收机有关三类误差；介绍了 6 条路线的交通方式（自行车、步行、出租车）及对应的速度变化曲线图；并基于误差产生原因，详细分析了各路线中云层、树木、建筑物等对信号传播的影响，以及设备状态、性能与精度、测量软件匹配度等带来的误差。
+
+The experimental summary points out the shortcomings of this experiment, such as the failure to obtain satellite quantity data for some routes and the insufficient quantification of error analysis. It also outlines the completion of the experiment, mentioning the overcoming of difficulties in transitioning from theory to practice, and the understanding of the practical applications of navigation and positioning technology, as well as the limitations of methods and technologies.
+实验总结指出了本次实验存在的不足，如部分路线未获取卫星数量数据、误差分析量化程度不够等，同时概述了实验完成情况，提及克服了理论转实践的困难，体会到导航与定位技术的实际应用及方法和技术局限。
+
+The appendix includes the source code used for data processing and plotting, as well as original and processed images.
+附录包含了用于数据处理和绘图的源代码，以及原始图片和处理图片。
+
+By participating in this GPS positioning experiment, I have grown in several aspects. At the knowledge level, I have gained a deeper understanding of the basic principles of GPS positioning, clarified the impact of factors such as satellites, signal propagation, and receivers on positioning accuracy, mastered the basic methods of GPS data collection, processing, and analysis, and became familiar with the use of related software such as Phyphox, MATLAB, and ArcGIS.
+通过参与本次 GPS 定位实验，我在多个方面获得了成长。在知识层面，深入了解了 GPS 定位的基本原理，明确了卫星、信号传播、接收机等因素对定位精度的影响，掌握了 GPS 数据采集、处理及分析的基本方法，熟悉了 phyphox、matlab、ArcGIS 等相关软件的使用。
+
+In terms of practical ability, I have improved my ability to apply theoretical knowledge to practical operations, learned to design experimental routes, collect effective data, and use various tools to analyze and visualize the data. In terms of problem-solving, facing issues such as data loss and difficulties in error analysis during the experiment, I have developed the ability to troubleshoot problems and find solutions.
+在实践能力上，提升了将理论知识应用于实际操作的能力，学会了设计实验路线、采集有效数据，并运用多种工具对数据进行分析和可视化。在问题解决方面，面对实验中出现的数据缺失、误差分析困难等问题，培养了排查问题和寻找解决方案的能力。
+
+At the same time, through group collaboration in completing the experiment, I have enhanced my teamwork awareness and communication skills. I have deeply realized the importance of rigor and attention to detail in the experimental process, and also recognized my own shortcomings in professional knowledge and technical means, which points out the direction for improvement in future learning and practice.
+同时，通过小组合作完成实验，增强了团队协作意识和沟通能力，深刻认识到实验过程中严谨性和细节把控的重要性，也意识到自身在专业知识和技术手段上的不足，为今后的学习和实践指明了改进方向。
 
 
 
