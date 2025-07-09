@@ -135,3 +135,33 @@ In terms of practical ability, I learned to design experimental plans, including
 
 In team collaboration, I enhanced communication and cooperation skills, and jointly solved various problems encountered in the experiment, such as device compatibility and data anomalies. Through this experiment, I also deeply realized the importance of rigorous experimental design and data quality, understood the limitations of existing experiments, provided ideas for future improvements and refinements in related research, and sparked further interest in exploring wireless positioning technologies.
 团队协作中，增强了沟通与合作能力，共同解决了实验中遇到的各种问题，如设备兼容性、数据异常等。通过本次实验，也深刻认识到实验设计的严谨性和数据质量的重要性，了解了现有实验的局限性，为今后相关研究的改进和完善提供了思路，激发了对无线定位技术进一步探索的兴趣。
+
+# 6."Different Interchange Structures.pdf"
+# 6."不同的立交结构.pdf"
+
+This article focuses on different types of interchange structures, using several typical interchanges in Shenzhen as examples to provide a detailed introduction to their general situations and structural conditions.
+本文聚焦于不同类型的立交结构，以深圳市多个典型立交为例，详细介绍了其概况与结构情况。
+
+Trumpet + Oblique Cloverleaf Interchange (Honghu Interchange): Composed of Nigang East Road and Buxin Road (east-west urban expressways) and Honghu West Road and Wenjin North Road (north-south urban arterial roads). Due to the presence of Honghu Park, dense buildings, and other factors in the surrounding area, space needs to be compressed. Additionally, the road alignment is not orthogonal, and traffic volume is high. Therefore, an oblique cloverleaf interchange model is adopted. A trumpet interchange is also constructed in the southwest for connection. Independent ramps are set on both sides of the road to facilitate vehicles merging in and out without affecting through traffic.
+喇叭型 + 斜向苜蓿叶式立交（洪湖立交）：由泥岗东路、布心路（东西向城市快速路）和洪湖西路、文锦北路（南北向城市主干路）组成。因周边有洪湖公园、密集建筑等，需压缩空间，且道路走向非正交、交通流量大，故采用斜向苜蓿叶立交模式，西南部还建设喇叭型立交衔接，道路两侧设有独立匝道方便车辆汇入驶出而不影响直行。
+
+Partial Cloverleaf Interchange (Tangtou Interchange): Involves the Nanguang Expressway (northwest-southeast direction) and the Shenhai Expressway (east-west direction), both of which are expressways. The Nanguang Expressway carries a large volume of traffic, and its alignment is offset to bypass the Tiegang Reservoir. Farmland on the northeast and southwest sides limits space. Therefore, a partial cloverleaf interchange is adopted, with cloverleaves arranged in the northwest and southeast, and non-directional designs on the other two sides. Toll stations are located on the interchange, and their placement alleviates potential congestion.
+半苜蓿叶式立交（塘头立交）：涉及南光高速（西北 - 东南方向）和沈海高速（东西方向），均为高速公路。南光高速承接大量车流且走向因绕开铁岗水库发生偏移，东北和西南侧有农田限制空间，因此采用半苜蓿叶式立交，西北和东南处布设苜蓿叶，另外两侧非定向设计，立交上设有收费站且位置缓和了潜在拥堵。
+
+Fully Directional Interchange (Pingdi Interchange): Composed of the Changshen Expressway (north-south direction) and the Shenzhen Outer Ring Expressway (east-west direction), both of which are expressways. Located in a valley opening between two hills, the terrain is restricted. The surrounding roads are complex, buildings are dense, and traffic volume is high. A fully directional model is adopted. By increasing the number of vertical layers and using a quasi-circular pattern, land occupation is reduced, and traffic efficiency is improved. All sections are elevated to facilitate passage on the roads below.
+全定向式立交（坪地立交）：由长深高速（南北方向）和深圳外环高速（东西方向）构成，均为高速公路。位于两丘陵间谷地开口，地形受限，周边道路复杂、建筑密集，交通量较大，采用全定向模式，通过增加垂直层数和类环形模式减少占地、提高通行效率，且全部设置高架方便下方路段通行。
+
+Cross Intersection: Ruyi Road (northwest-southeast direction) and Longxiang Avenue (southwest-northeast direction) are both arterial roads located in a bustling area of Longgang District. Surrounding residential and office buildings are dense, making it impossible to adopt an interchange form. Therefore, it is a planar cross intersection with dedicated right-turn lanes. There are conflict points where left-turn routes intersect with other routes.
+十字交叉口：如意路（西北 - 东南方向）和龙翔大道（西南 - 东北方向）均为主干路，位于龙岗区繁华地带，周边居民楼、办公楼密集，无法采用立交形式，故为平面十字交叉口，设置专用右转道，存在左转路线与其他路线的交叉冲突点。
+
+Roundabout + Separated Interchange: Yingbin Avenue (east-west direction, including elevated and ground roads) and Yeting Avenue (north-south direction) are both arterial roads. A roundabout is set in the middle, with an overpass above for the east-west road to split and pass, reducing land occupation and allowing east-west through traffic to avoid intersection interference. North-south vehicles can pass directly but cannot handle large traffic volumes.
+环岛 + 分离立交：迎宾大道（东西方向，含高架和地面道路）和叶挺大道（南北方向）均为主干路。中间设环岛，上方有高架桥供东西向道路分叉通行，减少占地，使东西向直行车辆不受路口干扰，南北向车辆可直接通行但无法承载大交通流量。
+
+Through the study of different interchange structures, I have gained a comprehensive understanding of urban road interchange design. At the knowledge level, I have learned about the characteristics, applicable scenarios, and design considerations of various interchange structures, such as the impact of traffic volume, terrain, and surrounding environment on choosing the type of interchange. I have also clarified the advantages and limitations of different interchanges in solving traffic intersection problems.
+通过对不同立交结构的研究，我对城市道路立交设计有了全面认识。在知识层面，了解了多种立交结构的特点、适用场景及设计考量因素，如交通流量、地形地貌、周边环境等对 choosing 立交类型的影响，明晰了不同立交在解决交通交汇问题上的优势与局限。
+
+In terms of analytical ability, I have learned to interpret the rationality of interchange structure design in conjunction with specific geographical environments and traffic demands, enhancing my understanding of the relationship between spatial layout and traffic organization. At the same time, by comparing different interchange forms, I have developed a multi-angle problem-solving mindset, recognizing that engineering design must balance functionality, economy, and environmental adaptability.
+在分析能力上，学会了结合具体地理环境和交通需求去解读立交结构设计的合理性，提升了对空间布局和交通组织关系的理解。同时，通过对比不同立交形式，培养了从多角度分析问题的思维，认识到工程设计需兼顾功能性、经济性和环境适应性。
+
+This study has also made me deeply appreciate the close connection between urban transportation facility design and urban development. It has accumulated practical knowledge for future attention to urban planning and traffic engineering fields and sparked my interest in exploring the optimization of urban transportation systems.
+此次研究也让我深刻体会到城市交通设施设计与城市发展的紧密联系，为今后关注城市规划和交通工程领域积累了实践认知，激发了对优化城市交通系统的探索兴趣。
