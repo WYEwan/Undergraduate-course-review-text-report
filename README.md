@@ -18,7 +18,8 @@ This project provides non-programming content from my undergraduate studies, suc
 - [4. "QGIS Source Code Analysis.pdf"](#4-qgis-source-code-analysispdf)
 - [5. "WiFi and Bluetooth Positioning Experiment.pdf"](#5-wifi-and-bluetooth-positioning-experimentpdf)
 - [6. “A Small Case Study of Spatial Analysis.pdf”](#6-a-small-case-study-of-spatial-analysispdf)
-- [7. "Different Interchange Structures.pdf"](#7-different-interchange-structurespdf)
+- [7. “A Small Spatial Analysis Case: Spatial Autocorrelation.pdf”](#7-a-small-spatial-analysis-case-:-spatial-autocorrelationpdf)
+- [8. "Different Interchange Structures.pdf"](#7-different-interchange-structurespdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -28,7 +29,8 @@ This project provides non-programming content from my undergraduate studies, suc
 - [4. "QGIS源代码解读.pdf"](#4-qgis源代码解读pdf)
 - [5. "WIFI和蓝牙定位实验.pdf"](#5-wifi和蓝牙定位实验pdf)
 - [6. “一个小的空间分析案例.pdf”](#6-一个小的空间分析案例pdf)
-- [7. "不同的立交结构.pdf"](#7-不同的立交结构pdf)
+- [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例：空间自相关pdf)
+- [8. "不同的立交结构.pdf"](#7-不同的立交结构pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -209,8 +211,35 @@ At the same time, through the analysis of POI distribution in Shenzhen, I have d
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
 
-# 7. "Different Interchange Structures.pdf"
-# 7. "不同的立交结构.pdf"
+# 7. "A Small Spatial Analysis Case: Spatial Autocorrelation.pdf"
+# 7. "一个小的空间分析案例：空间自相关.pdf"
+
+This paper is an experiment and analysis assignment on spatial autocorrelation, taking the average income attribute values of traffic zones in Shenzhen as the research object, and delves into related issues in spatial autocorrelation analysis.
+本文是一篇关于空间自相关的实验与分析作业，以深圳市交通小区的平均收入属性值为研究对象，深入探讨了空间自相关分析中的相关问题。
+
+First, the role of the spatial weight matrix in spatial autocorrelation analysis was studied. From an overall macro perspective, the spatial weight matrix defines the adjacency relationships of spatial units and is an indispensable part of spatial autocorrelation analysis. It is used in various autocorrelation analyses for intermediate calculations to obtain autocorrelation coefficients and is also commonly used to construct spatial lag terms. From the formulas of Moran’s I and Getis-Ord G indicators, it can be seen that the values of the elements in the spatial matrix directly affect the absolute values of these indicators. In terms of empirical validation, experiments were designed to explore the impact of parameters and types of spatial weight matrices on spatial autocorrelation analysis. It was found that changes in the k value significantly affect Moran’s I and Geary’s C indicators. After k is greater than 15, the indicators tend to stabilize, and when the k value is small, the degree of spatial autocorrelation is high, while when the k value is large, it is low. Different types of spatial weight matrices (k-nearest neighbor weight adjacency matrix and distance adjacency matrix) also have a significant impact on the indicators, with the indicators changing more smoothly under the distance adjacency matrix.
+首先，研究了空间权重矩阵在空间自相关分析中的作用。从总体宏观作用来看，空间权重矩阵定义了空间单位的相邻关系，是空间自相关分析必不可少的部分，在多种自相关分析中用于中间计算以得到自相关系数，还常用于构建空间滞后项等。通过 Moran’s I 指标和 Getis-Ord G 指标的公式可以看出，空间矩阵元素的值直接影响这些指标的绝对数值。实例验证方面，设计实验探究空间权重矩阵的参数和种类对空间自相关分析的作用，发现 k 值变化显著影响 Moran’s I 和 Geary’s C 指标，k 大于 15 后指标趋于稳定，且 k 值较小时空间自相关程度较高，k 值较大时则较低；不同种类的空间权重矩阵（k 近邻权重邻接矩阵和距离邻接矩阵）对指标影响也很大，距离邻接矩阵下的指标变化更平滑。
+
+Second, the relationship between spatial distance and spatial autocorrelation coefficients was analyzed. In the case of a distance adjacency matrix, spatial autocorrelation indicators show a decreasing trend (Moran’s I) and an increasing trend (Geary’s C) as the distance threshold increases. This is because an increase in the distance threshold leads to more spatial randomness factors and a decrease in spatial autocorrelation. Pearson, Spearman, and Kendall coefficients were used to verify that this trend conforms to linear and rank trends. At the same time, extreme cases when the distance threshold is small were studied. It was found that Moran’s I has extreme values that are drastic and show no obvious pattern in this interval, while Geary’s C has relatively regular extreme values, and the reasons were speculated.
+其次，分析了空间距离与空间自相关系数的关系。在距离邻接矩阵情形下，空间自相关指标随距离阈值增大呈现减少（Moran’s I）和增加（Geary’s C）的趋势，这是由于距离阈值增大使空间随机性因素增多，空间自相关性降低。通过 Pearson、Spearman 和 Kendall 系数验证，表明这种趋势符合线性和等级趋势。同时，研究了距离阈值较小时的极端情况，发现 Moran’s I 在该区间极端值剧烈且无明显规律，Geary’s C 的极端值相对有规律，并推测了原因.
+
+Finally, an analysis of ordinary spatial clustering was conducted. Using ArcGIS spatial clustering research indicators to analyze the distribution of average income in Shenzhen traffic zones, it was found that for the Anselin Local Moran I indicator, there is little difference overall between using an ordinary distance matrix and a square inverse distance matrix, with the latter reducing the determined range of high-value and low-value areas. For the Getis-Ord Gi * indicator, the neighbor matrix is more suitable, as the ordinary distance matrix reduces its effective analysis range. High-value areas and high-value edge areas are concentrated in the south, while low-value areas and low-value edge areas are concentrated in the north and southeast.
+最后，进行了普通空间聚集情况分析。使用 ArcGIS 的空间聚集研究指标对深圳交通小区平均收入分布进行分析，发现对于 Anselin Local Moran I 指标，采用普通距离矩阵和平方递减距离矩阵总体差别不大，后者使高值区和低值区确定范围减少；对于 Getis-Ord Gi * 指标，近邻矩阵更合适，普通距离矩阵会使其有效分析范围减小，且高值区和高值边缘区集中在南部，低值区和低值边缘区集中在北部和东南部。
+
+Through this spatial autocorrelation experiment and analysis, I have gained a lot in both spatial analysis theory and practice. In terms of theoretical knowledge, I have deepened my understanding of the concept and role of the spatial weight matrix and its key position in spatial autocorrelation analysis. I have clarified the impact mechanisms of different types and parameters of spatial weight matrices on autocorrelation indicators and mastered the relationship between spatial distance and spatial autocorrelation coefficients.
+通过本次空间自相关实验与分析，我在空间分析理论和实践方面都有不少收获。在理论知识上，深入理解了空间权重矩阵的概念、作用及其在空间自相关分析中的关键地位，明确了不同类型和参数的空间权重矩阵对自相关指标的影响机制，同时掌握了空间距离与空间自相关系数之间的关系规律。
+
+In terms of practical skills, I have learned to use tools such as ArcGIS for spatial autocorrelation analysis, including selecting appropriate spatial weight matrices, calculating and interpreting indicators such as Moran’s I, Geary’s C, Anselin Local Moran I, and Getis-Ord Gi *, thereby enhancing my ability to process and analyze spatial data. By designing experiments to verify related hypotheses, I have cultivated experimental design and logical reasoning skills, enabling me to make reasonable speculations and explanations for analysis results.
+在实践能力上，学会了运用 ArcGIS 等工具进行空间自相关分析，包括选择合适的空间权重矩阵、计算和解读 Moran’s I、Geary’s C、Anselin Local Moran I 和 Getis-Ord Gi * 等指标，提升了对空间数据的处理和分析能力。通过设计实验验证相关假设，培养了实验设计和逻辑推理能力，能够针对分析结果进行合理推测和解释。
+
+This study has also made me realize the importance of spatial autocorrelation analysis in revealing the spatial distribution characteristics and patterns of geographical phenomena. It has provided a solid foundation for future applications of spatial analysis in urban planning, resource allocation, and other fields, and has also sparked my interest in exploring more complex spatial analysis methods.
+此次研究也让我认识到空间自相关分析在揭示地理现象空间分布特征和规律中的重要性，为今后在城市规划、资源分配等领域的空间分析应用提供了坚实的基础，同时也激发了对更复杂空间分析方法的探索兴趣。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 8. "Different Interchange Structures.pdf"
+# 8. "不同的立交结构.pdf"
 
 This article focuses on different types of interchange structures, using several typical interchanges in Shenzhen as examples to provide a detailed introduction to their general situations and structural conditions.
 本文聚焦于不同类型的立交结构，以深圳市多个典型立交为例，详细介绍了其概况与结构情况。
