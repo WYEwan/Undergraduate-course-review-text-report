@@ -29,7 +29,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [4. "QGIS源代码解读.pdf"](#4-qgis源代码解读pdf)
 - [5. "WIFI和蓝牙定位实验.pdf"](#5-wifi和蓝牙定位实验pdf)
 - [6. “一个小的空间分析案例.pdf”](#6-一个小的空间分析案例pdf)
-- [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例：空间自相关pdf)
+- [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例空间自相关pdf)
 - [8. "不同的立交结构.pdf"](#8-不同的立交结构pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
