@@ -17,7 +17,8 @@ This project provides non-programming content from my undergraduate studies, suc
 - [3. "GPS Positioning Experiment.pdf"](#3-gps-positioning-experimentpdf)
 - [4. "QGIS Source Code Analysis.pdf"](#4-qgis-source-code-analysispdf)
 - [5. "WiFi and Bluetooth Positioning Experiment.pdf"](#5-wifi-and-bluetooth-positioning-experimentpdf)
-- [6. "Different Interchange Structures.pdf"](#6-different-interchange-structurespdf)
+- [6. “A Small Case Study of Spatial Analysis.pdf”](#6-a-small-case-study-of-spatial-analysispdf)
+- [7. "Different Interchange Structures.pdf"](#7-different-interchange-structurespdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -26,7 +27,8 @@ This project provides non-programming content from my undergraduate studies, suc
 - [3. "GPS定位实验.pdf"](#3-gps定位实验pdf)
 - [4. "QGIS源代码解读.pdf"](#4-qgis源代码解读pdf)
 - [5. "WIFI和蓝牙定位实验.pdf"](#5-wifi和蓝牙定位实验pdf)
-- [6. "不同的立交结构.pdf"](#6-不同的立交结构pdf)
+- [6. “一个小的空间分析案例.pdf”](#6-一个小的空间分析案例pdf)
+- [7. "不同的立交结构.pdf"](#7-不同的立交结构pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -177,8 +179,38 @@ In team collaboration, I enhanced communication and cooperation skills, and join
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
 
-# 6. "Different Interchange Structures.pdf"
-# 6. "不同的立交结构.pdf"
+# 6. “A Small Case Study of Spatial Analysis.pdf”
+# 6. “一个小的空间分析案例.pdf”
+
+This paper is an assignment on the spatial statistics and analysis of POIs (Points of Interest) in Shenzhen, exploring the distribution characteristics of POIs in Shenzhen through various spatial analysis methods.
+本文是一篇关于深圳市 POI（兴趣点）的空间统计与分析作业，通过多种空间分析方法对深圳市 POI 的分布特征进行了探究。
+
+Firstly, the article presents descriptive distribution maps of POIs, including the distribution map of POIs in Shenzhen's traffic zones, POI kernel density map, three-dimensional POI distribution map, and spatial trend map of POI distribution. These maps were created using tools such as ArcMap and ArcScene. The distribution and kernel density maps show the distribution of POI quantities in different traffic zones, the three-dimensional map intuitively displays the spatial differences in POI distribution, and the spatial trend map reflects the overall trend of POI distribution. The analysis found that the global distribution of POIs in Shenzhen is uneven, with concentrated areas corresponding to traffic zone concentrations. The southwest is a high-value area, the southeast is a low-value area, the north-south difference is smaller than the east-west difference, and the western region is densely distributed while the eastern region is sparse.
+首先，文章展示了 POI 描述性分布图，包括深圳市交通小区 POI 分布图、POI 核密度图、POI 分布立体图和 POI 分布空间趋势图。这些图通过 ArcMap 和 ArcScene 等工具制作，其中分布图和核密度图呈现了不同交通小区 POI 数量的分布情况，立体图直观展示了 POI 分布的空间高低差异，空间趋势图则反映了 POI 分布的整体趋势。分析发现，深圳市 POI 全局分布不均衡，集中区与交通小区集中区对应，西南部为高峰区，东南部为低值区，南北差异小于东西差异，西部地区分布密集而东部稀疏。
+
+Secondly, hotspot analysis and comprehensive analysis were conducted, generating a hotspot distribution map of POIs in Shenzhen's traffic zones and the results of a combined analysis of POI quantities. The hotspot analysis further verified the distribution characteristics of POIs, showing small clusters in the northwest and northeast, a medium cluster in the southwest, and a large cluster running north-south in the central-western area. The combined analysis utilized functions such as directional distribution, cluster and outlier analysis, and mean center, finding that the average center of POI density is relatively west of the geographical center. The standard deviation ellipse indicates that the main coverage area is in the west, and the cluster and outlier analysis reveals the distribution of high-value areas, low-value areas, and transition zones.
+其次，进行了热点分析和综合分析，生成了深圳市交通小区 POI 热点分布图和 POI 数量组合式分析结果。热点分析进一步验证了 POI 分布特征，显示出西北、东北有小聚集区，西南有中等聚集区，中部偏西有连贯南北的大聚集区；组合式分析运用了方向分布、聚类和异常值分析、平均中心等功能，发现 POI 密度平均中心相对地理中心偏西，标准差椭圆表明主要覆盖区为西部，聚类和异常值分析则揭示了高值区、低值区及变化区的分布.
+
+Then, different attributes of POIs were comprehensively analyzed, including statistical charts of POI attributes in various administrative regions, semivariogram cloud maps, covariance cloud maps, and normal QQ plots. The statistical charts show differences in the quantity and types of POIs across administrative regions, with Bao'an District and Longgang District having a larger number, and transportation facilities and other types dominating. The semivariogram and covariance cloud maps indicate significant spatial correlation in different traffic zones at short to medium scales, with correlation decreasing as distance increases. The normal QQ plot shows that the data as a whole differs significantly from the standard normal distribution and does not exhibit significant randomness.
+然后，综合分析了 POI 的不同属性，包括各行政区 POI 点属性统计图、半变异函数云图、协方差云图和正态 QQ 图。统计图显示不同行政区 POI 数量和种类存在差异，宝安区和龙岗区数量较多，交通设施等类型占主导；半变异和协方差云图表明不同交通区在中短尺度上空间相关性显著，随距离增大相关性降低；正态 QQ 图显示数据整体与标准正态分布有较大区别，不具显著随机性。
+
+Finally, the article also mentions other statistical results, such as the average nearest neighbor p-value indicating that the spatial randomness hypothesis can be rejected, the Pearson correlation test showing a high correlation between POI types and point coordinates, and statistical measures such as variance and standard deviation of locationx and locationy.
+最后，文章还提及了其他统计量结果，如平均最邻近 p 值表明可拒绝空间随机性假设，Pearson 关系验证显示 POI 种类和点坐标相关度较高，以及 locationx 和 locationy 的方差、标准差等统计量。
+
+By completing this spatial analysis case study, I have significantly improved my skills in spatial analysis methods and tool applications. At the knowledge level, I have mastered various spatial analysis methods such as descriptive analysis of POI distribution, hotspot analysis, cluster and outlier analysis, and understood concepts such as kernel density, standard deviation ellipse, and semivariogram and their roles in spatial analysis. I have clarified how these methods can be used to reveal the spatial distribution characteristics and patterns of geographical elements.
+通过完成这个空间分析案例，我在空间分析方法和工具应用方面有了显著提升。在知识层面，掌握了 POI 分布的描述性分析、热点分析、聚类和异常值分析等多种空间分析方法，了解了核密度、标准差椭圆、半变异函数等概念及其在空间分析中的作用，明确了如何通过这些方法揭示地理要素的空间分布特征和规律。
+
+In terms of tool usage, I have become proficient in using software such as ArcMap, ArcScene, and MATLAB for data processing, map creation, and statistical analysis. I have improved my operational ability with spatial analysis tools and learned how to select appropriate tools and methods based on research needs to process and analyze data.
+在工具使用上，熟练运用了 ArcMap、ArcScene 和 matlab 等软件进行数据处理、地图制作和统计分析，提升了对空间分析工具的操作能力，学会了根据研究需求选择合适的工具和方法来处理和分析数据。
+
+At the same time, through the analysis of POI distribution in Shenzhen, I have developed a spatial thinking perspective, improved my ability to interpret geographical data, and learned to extract effective information from charts and conduct reasonable analysis. This practice has also made me realize the importance of spatial analysis in fields such as urban planning and resource distribution research, laying a solid foundation for future related research and applications.
+同时，通过对深圳市 POI 分布的分析，培养了从空间角度思考问题的思维，提高了对地理数据的解读能力，能够从图表中提取有效信息并进行合理分析。此次实践也让我认识到空间分析在城市规划、资源分布研究等领域的重要性，为今后开展相关研究和应用奠定了坚实基础。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 7. "Different Interchange Structures.pdf"
+# 7. "不同的立交结构.pdf"
 
 This article focuses on different types of interchange structures, using several typical interchanges in Shenzhen as examples to provide a detailed introduction to their general situations and structural conditions.
 本文聚焦于不同类型的立交结构，以深圳市多个典型立交为例，详细介绍了其概况与结构情况。
