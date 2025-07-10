@@ -18,7 +18,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [4. "QGIS Source Code Analysis.pdf"](#4-qgis-source-code-analysispdf)
 - [5. "WiFi and Bluetooth Positioning Experiment.pdf"](#5-wifi-and-bluetooth-positioning-experimentpdf)
 - [6. “A Small Case Study of Spatial Analysis.pdf”](#6-a-small-case-study-of-spatial-analysispdf)
-- [7. “A Small Spatial Analysis Case: Spatial Autocorrelation.pdf”](#7-a-small-spatial-analysis-case-:-spatial-autocorrelationpdf)
+- [7. “A Small Spatial Analysis Case: Spatial Autocorrelation.pdf”](#7-a-small-spatial-analysis-case--spatial-autocorrelationpdf)
 - [8. "Different Interchange Structures.pdf"](#7-different-interchange-structurespdf)
 
 ### 中文目录
