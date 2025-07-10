@@ -103,8 +103,8 @@ In terms of practical ability, I have improved my ability to apply theoretical k
 At the same time, through group collaboration in completing the experiment, I have enhanced my teamwork awareness and communication skills. I have deeply realized the importance of rigor and attention to detail in the experimental process, and also recognized my own shortcomings in professional knowledge and technical means, which points out the direction for improvement in future learning and practice.
 同时，通过小组合作完成实验，增强了团队协作意识和沟通能力，深刻认识到实验过程中严谨性和细节把控的重要性，也意识到自身在专业知识和技术手段上的不足，为今后的学习和实践指明了改进方向。
 
-# 4."QGIS Source Code Analysis.pdf"
-# 4."QGIS源代码解读.pdf"
+# 4. "QGIS Source Code Analysis.pdf"
+# 4. "QGIS源代码解读.pdf"
 
 This article conducts an in-depth analysis of the QGIS underlying code, aiming to explore the implementation mechanisms of its core functionalities.
 本文围绕 QGIS 底层代码展开深入分析，旨在探究其核心功能的实现机制。
@@ -124,8 +124,8 @@ Through the analysis of the QGIS underlying code, my professional knowledge has 
 In terms of practical skills, I have learned how to locate and analyze the source code of large open-source projects, enhancing my ability to interpret C++ code and understand the underlying mechanisms of GIS software. At the same time, completing various analysis tasks according to experimental requirements has cultivated rigorous logical thinking and systematic problem-solving abilities, laying a solid foundation for future software development and research in related fields.
 在实践能力方面，学会了如何查找和分析大型开源项目的源代码，提升了对 C++ 代码的解读能力和对 GIS 软件底层机制的认知。同时，按照实验要求完成各项分析任务，培养了严谨的逻辑思维和系统分析问题的能力，为今后从事相关软件开发和研究奠定了坚实基础。
 
-# 5."WiFi and Bluetooth Positioning Experiment.pdf"
-# 5."WIFI和蓝牙定位实验.pdf"
+# 5. "WiFi and Bluetooth Positioning Experiment.pdf"
+# 5. "WIFI和蓝牙定位实验.pdf"
 
 This article is a WiFi and Bluetooth positioning experiment report jointly completed by Wang Yi, Luo Huiming, and Zhang Heng, focusing on the research of WiFi and Bluetooth signal attenuation models and positioning performance.
 本文是由王逸、罗慧铭、张恒共同完成的 WiFi 和蓝牙定位实验报告，围绕 WiFi 和蓝牙信号的衰减模型及定位性能展开研究。
@@ -157,8 +157,8 @@ In terms of practical ability, I learned to design experimental plans, including
 In team collaboration, I enhanced communication and cooperation skills, and jointly solved various problems encountered in the experiment, such as device compatibility and data anomalies. Through this experiment, I also deeply realized the importance of rigorous experimental design and data quality, understood the limitations of existing experiments, provided ideas for future improvements and refinements in related research, and sparked further interest in exploring wireless positioning technologies.
 团队协作中，增强了沟通与合作能力，共同解决了实验中遇到的各种问题，如设备兼容性、数据异常等。通过本次实验，也深刻认识到实验设计的严谨性和数据质量的重要性，了解了现有实验的局限性，为今后相关研究的改进和完善提供了思路，激发了对无线定位技术进一步探索的兴趣。
 
-# 6."Different Interchange Structures.pdf"
-# 6."不同的立交结构.pdf"
+# 6. "Different Interchange Structures.pdf"
+# 6. "不同的立交结构.pdf"
 
 This article focuses on different types of interchange structures, using several typical interchanges in Shenzhen as examples to provide a detailed introduction to their general situations and structural conditions.
 本文聚焦于不同类型的立交结构，以深圳市多个典型立交为例，详细介绍了其概况与结构情况。
