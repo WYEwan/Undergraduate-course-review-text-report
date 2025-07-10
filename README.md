@@ -18,8 +18,8 @@ This project provides non-programming content from my undergraduate studies, suc
 - [4. "QGIS Source Code Analysis.pdf"](#4-qgis-source-code-analysispdf)
 - [5. "WiFi and Bluetooth Positioning Experiment.pdf"](#5-wifi-and-bluetooth-positioning-experimentpdf)
 - [6. “A Small Case Study of Spatial Analysis.pdf”](#6-a-small-case-study-of-spatial-analysispdf)
-- [7. “A Small Spatial Analysis Case: Spatial Autocorrelation.pdf”](#7-a-small-spatial-analysis-case--spatial-autocorrelationpdf)
-- [8. "Different Interchange Structures.pdf"](#7-different-interchange-structurespdf)
+- [7. "A Small Spatial Analysis Case: Spatial Autocorrelation.pdf"](#7-a-small-spatial-analysis-case-spatial-autocorrelationpdf)
+- [8. "Different Interchange Structures.pdf"](#8-different-interchange-structurespdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -30,7 +30,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [5. "WIFI和蓝牙定位实验.pdf"](#5-wifi和蓝牙定位实验pdf)
 - [6. “一个小的空间分析案例.pdf”](#6-一个小的空间分析案例pdf)
 - [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例：空间自相关pdf)
-- [8. "不同的立交结构.pdf"](#7-不同的立交结构pdf)
+- [8. "不同的立交结构.pdf"](#8-不同的立交结构pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
