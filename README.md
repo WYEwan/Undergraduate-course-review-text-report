@@ -20,7 +20,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [6. "Different Interchange Structures.pdf"](#6-different-interchange-structurespdf)
 
 ### 中文目录
-- [Back to the top of the page](#返回页面顶部)
+- [返回页面顶部](#返回页面顶部)
 - [1. "AGB时序分析论文解读.pdf"](#1-agb时序分析论文解读pdf)
 - [2. "AIoT——AI 时代下的物联网.pdf"](#2-aiotai-时代下的物联网pdf)
 - [3. "GPS定位实验.pdf"](#3-gps定位实验pdf)
