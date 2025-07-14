@@ -27,6 +27,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [13. "Resident Travel OD Calculation.pdf"](#13-resident-travel-od-calculationpdf)
 - [14. "Filter Operator Implementation and Comparison.pdf"](#14-filter-operator-implementation-and-comparisonpdf)
 - [15. "Guangdong-Hong Kong-Macao Greater Bay Area Urban Cultural Spatial Distribution and Pattern.pdf"](#15-guangdong-hong-kong-macao-greater-bay-area-urban-cultural-spatial-distribution-and-patternpdf)
+- [16. "Research on Remote Sensing Image Gray Histogram.pdf"](#16-research-on-remote-sensing-image-gray-histogrampdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -45,6 +46,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [13. “居民出行OD计算.pdf”](#13-居民出行OD计算pdf)
 - [14. “滤波算子的实现和对比.pdf”](#14-滤波算子的实现和对比pdf)
 - [15. “粤港澳大湾区城市文化空间分布及格局.pdf”](#15-粤港澳大湾区城市文化空间分布及格局pdf)
+- [16. “遥感图像灰度直方图研究.pdf”](#16-遥感图像灰度直方图研究pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -470,6 +472,30 @@ Through this research, I gained a deeper mastery of the application of GIS techn
 
 At the same time, my understanding of the cultural construction of the Guangdong-Hong Kong-Macao Greater Bay Area was deepened, recognizing the regional imbalance in cultural development and the spatial connections of different cultural types, providing a data-supported approach for regional cultural planning. This research also cultivated my thinking in combining macro policies with micro data analysis, accumulating practical experience for future similar spatial studies.
 同时，加深了对粤港澳大湾区文化建设的理解，认识到区域内文化发展的不均衡性及不同文化类型的空间关联，为区域文化规划提供了数据支撑思路。此次研究也培养了将宏观政策与微观数据结合分析的思维，为今后开展类似空间研究积累了实践经验。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 16. "Research on Remote Sensing Image Gray Histogram.pdf"
+# 16. "遥感图像灰度直方图研究.pdf"
+
+This paper centers on the gray histogram of remote sensing images, detailing in full the drawing flow, related processing methods, and result analysis.
+本文围绕遥感图像的灰度直方图展开研究，详细介绍了灰度直方图的绘制流程、相关处理方法及结果分析。
+
+The gray histogram directly reflects the brightness distribution of an image by counting the number of pixels at each gray level (0-255). The research flow is: convert remote sensing images in different formats (jpg, png) uniformly into tif format, apply Gaussian filtering and median filtering respectively (with no filtering as the control), after normalization (mapping pixel values to 0-255) generate gray histograms for each channel and fused gray histograms (using RGB synthesis and PCA fusion), and compare and analyze the effects of the different processing methods.
+灰度直方图通过统计图像中每个灰度级（0-255）的像素数量，直观反映图像亮度分布。研究流程为：将不同格式（jpg、png）的遥感图像统一转换为 tif 格式，分别采用高斯滤波、中值滤波处理（以无滤波为对照），经归一化（将像素值映射到 0-255）后，生成各通道灰度直方图及融合灰度直方图（采用 RGB 合成和 PCA 方法融合），并对比分析不同处理方式的效果。
+
+Results of different filtering treatments show: Gaussian filtering removes random noise by weighted averaging, possibly blurring edges; median filtering removes salt-and-pepper noise effectively by taking the neighborhood median, better retaining edges. Comparisons of gray histograms for each channel indicate that after filtering the histograms are smoother, peaks corresponding to noise are weakened, and Gaussian filtering performs better on random noise while median filtering is superior for salt-and-pepper noise.
+不同滤波处理结果显示：高斯滤波通过加权平均去除随机噪声，可能模糊边缘；中值滤波通过取邻域中值有效去除椒盐噪声，更好保留边缘。各通道灰度直方图对比表明，滤波后直方图更平滑，噪声对应的峰值被削弱，且高斯滤波对随机噪声效果较好，中值滤波对椒盐噪声处理更优。
+
+In fused gray histograms, RGB synthesis weights gray values based on human eye sensitivity to color, while PCA synthesis extracts principal information through dimensionality reduction; the two results differ markedly, the RGB fused histogram is smoother, whereas the PCA fusion shows a decreasing trend from low to high gray values.
+融合灰度直方图中，RGB 合成基于人眼对颜色的敏感度加权生成灰度值，PCA 合成通过降维提取主要信息，两者结果差异明显，RGB 融合直方图更平滑，PCA 融合则呈现从低到高灰度值递减趋势。
+
+Through this research, I deeply understood the principles of the gray histogram and its role in image processing, mastered the implementation logic and applicable scenarios of Gaussian and median filtering, and learned to use RGB and PCA methods for image fusion. Technically, I improved abilities in using C++ (GDAL library) for data preprocessing and Python (matplotlib and other libraries) for visualization, and can analyze image noise type and brightness distribution characteristics via histograms.
+通过本次研究，我深入理解了灰度直方图的原理及在图像处理中的作用，掌握了高斯滤波、中值滤波的实现逻辑及适用场景，学会了利用 RGB 和 PCA 方法进行图像融合。在技术应用上，提升了使用 C++（GDAL 库）进行数据预处理、Python（matplotlib 等库）进行可视化的能力，能通过直方图分析图像噪声类型和亮度分布特征。
+
+This practice also made me realize the impact of different processing methods on image features, cultivated the thinking of choosing appropriate methods according to image characteristics, and laid a foundation for subsequent digital image processing and analysis.
+此次实践也让我认识到不同处理方法对图像特征的影响，培养了根据图像特点选择合适处理方法的思维，为后续数字图像处理和分析奠定了基础。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
