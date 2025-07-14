@@ -24,6 +24,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [10. “Shared Bike Data Analysis.pdf”](#10-shared-bike-data-analysispdf)
 - [11. “Cartography Review.pdf”](#11-cartography-reviewpdf)
 - [12. "Urban Traffic System Traffic Flow Observation Report.pdf"](#12-urban-traffic-system-traffic-flow-observation-reportpdf)
+- [13. "Resident Travel OD Calculation.pdf"](#13-resident-travel-od-calculationpdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -39,6 +40,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [10. “共享单车数据分析.pdf”](#10-共享单车数据分析pdf)
 - [11. “地图学综述.pdf”](#11-地图学综述pdf)
 - [12. “城市交通系统交通流观察报告.pdf”](#12-城市交通系统交通流观察报告pdf)
+- [13. “居民出行OD计算.pdf”](#13-居民出行OD计算pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -386,6 +388,33 @@ In practical ability, I enhanced skills in data collection, organization and vis
 
 This study also made me realize the complexity and importance of traffic planning. A reasonable traffic organization scheme can effectively improve traffic efficiency, and it has accumulated practical experience for paying attention to urban traffic issues and proposing optimization suggestions in the future.
 此次研究也让我意识到交通规划的复杂性和重要性，一个合理的交通组织方案能有效提升通行效率，为今后关注城市交通问题、提出优化建议积累了实践经验。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 13. "Resident Travel OD Calculation.pdf"
+# 13. "居民出行OD计算.pdf"
+
+This document is a homework report on the OD (origin–destination) calculation for resident trips in Shenzhen; it focuses on the computation of resident travel OD demand, the display of OD distribution maps, and a preliminary analysis of traffic demand distribution.
+本文是关于深圳市居民出行 OD（起讫点）计算的作业报告，主要围绕居民出行 OD 需求计算、OD 分布图展示及交通需求分布初步分析展开。
+
+Homework Requirements & Data: first, compute the resident travel OD demand; second, present the OD distribution map and carry out a preliminary analysis of traffic demand distribution. A gravity model is to be employed for the calculation; relevant parameters may be set autonomously and a brief comparative analysis conducted. The data used include population and job statistics (GIS format) for Shenzhen’s ten administrative districts, road networks from Gaode/Baidu online maps, and information on the locations of each district’s government seat; additionally, one must independently construct the administrative center points (government locations) of each district and the straight-line (desire) lines between point pairs, and compute the shortest road distance between each point pair.
+作业要求与数据: 作业明确了两项任务，一是计算居民出行 OD 需求，二是展示 OD 分布图并开展交通需求分布的初步分析，采用重力模型进行计算，相关参数可自行设定并进行简要对比分析。所使用的数据包括深圳市 10 个行政区的人口和就业岗位统计数据（GIS 格式）、高德 / 百度在线地图的道路网和各区政府所在地信息等，同时需要自行构建各区行政中心点（政府所在地）及点对之间的直线（期望线），并计算点对间的最短道路距离。
+
+Data Pre-processing: Data pre-processing comprises several steps. First, the data are clipped and pre-processed: OpenStreetMap road-network data are taken, and, via the Shapely library and Geopandas tools, a spatial intersection with Shenzhen’s boundary is performed to restrict the data to Shenzhen’s administrative boundary. Next, district-government coordinates are obtained and a nearest-neighbor search is executed: after the geographic locations of each district government are organized into a latitude–longitude table, a nearest-neighbor algorithm maps them onto the linear structure of the road network; the minimum distance from each district-government coordinate to every road-network edge is calculated, and projection yields new coordinates. Finally, shortest paths are computed and a distance matrix constructed: the Dijkstra algorithm is adopted, combined with the Haversine formula for spherical distance, to obtain a shortest-path distance matrix between district governments; these steps are implemented in Python using libraries such as Geopandas, Shapely, and NetworkX.
+数据预处理: 数据预处理包括多个步骤，首先对数据进行裁剪与预处理，使用 OpenStreetMap 提供的路网数据，通过 Shapely 库与 Geopandas 工具，将路网数据与深圳市边界进行空间相交操作，把数据限定在深圳市行政边界内。然后获取区政府坐标并进行最近邻查找，将各区政府的地理位置整理成经纬度表后，使用最近邻查找算法映射到路网的线性结构上，计算每个区政府坐标到所有路网边的最小距离并投影形成新坐标。最后计算最短路径并构建距离矩阵，采用 Dijkstra 算法，结合 Haversine 公式计算球面距离，得到区政府之间的最短路径距离矩阵，这些步骤通过 Python 中的 Geopandas、Shapely、NetworkX 等库实现。
+
+Gravity Model & Improved Application: The gravity model is a predictive model based on inter-regional interaction strength; in OD calculation it is used to estimate travel flows between two regions. Its basic assumption is that the interaction strength between two regions is directly proportional to their attribute scale and inversely proportional to their distance. By adjusting parameters such as the distance-decay coefficient and observing changes in attraction values, it is found that attraction values exhibit a significant power-law distribution; the distance-decay coefficient has a large influence on attraction. Because the traditional gravity model ignores the matching relationship between regional population and jobs and thus suffers from model bias, an improved gravity model is adopted; this model better accounts for the matching relationship between regional population and jobs. Compared with the traditional model, the significance of the power-law distribution decreases, and the differentiation of attraction values among different administrative districts improves, aligning better with Shenzhen’s actual conditions. Examples include higher attraction between Futian and Bao’an districts, and between Bao’an and Nanshan districts, whereas Pingshan New District, Yantian District, and Dapeng New District show lower attraction.
+重力模型及改进型应用：重力模型是一种基于区域间相互作用强度的预测模型，在 OD 计算中用于估计两个区域间的出行流量，其基本假设是两个区域间的相互作用强度与其属性规模成正比，与其距离成反比。通过调整距离衰减系数等参数观察吸引力数值变化，发现吸引力数值呈现显著的幂律分布规律，距离衰减系数对吸引力影响较大。由于传统重力模型忽略了区域人口与岗位的匹配关系，存在模型偏差，因此采用了改进型重力模型，该模型能更好地考虑区域人口与岗位的匹配关系，对比传统模型，其幂律分布的显著性下降，不同行政区之间的吸引力数值区分度更好，更符合深圳的实际情况，比如福田区与宝安区、宝安区与南山区等行政区对吸引力较高，而坪山新区、盐田区、大鹏新区等被吸引程度较低。
+
+Through this assignment I gained in several areas. At the knowledge level, I deepened my understanding of the basic principles and application scenarios of the gravity model, grasped its role in traffic demand analysis, recognized the limitations of the traditional model and the advantages of the improved model, and clarified the importance of the matching relationship between regional population and jobs in model construction.
+通过本次作业，我在多个方面有所收获。在知识层面，深入了解了重力模型的基本原理和应用场景，掌握了其在交通需求分析中的作用，同时认识到传统模型的局限性以及改进型模型的优势，明确了区域人口与岗位匹配关系在模型构建中的重要性。
+
+In practical ability, I enhanced my capacity to process and analyze spatial data, learned to use relevant Python libraries for data clipping, shortest-path calculation, and distance-matrix construction, and mastered the basic workflow and methods of OD calculation. By adjusting parameters and comparing results, I cultivated analytical skills regarding the impact of model parameters and can better interpret traffic demand distribution patterns.
+在实践能力上，提升了对空间数据的处理和分析能力，学会了使用相关 Python 库进行数据裁剪、最短路径计算、距离矩阵构建等操作，掌握了 OD 计算的基本流程和方法。通过调整参数并对比结果，培养了对模型参数影响的分析能力，能够更好地解读交通需求分布规律。
+
+Moreover, through this assignment, I deeply sensed the close link between theoretical models and practical application, recognized the importance of traffic models in urban planning, accumulated experience for future study and work in related fields, and further stimulated my interest in exploring traffic data analysis.
+此外，通过本次作业，我深刻体会到理论模型与实际应用的紧密联系，认识到交通模型在城市规划中的重要性，为今后从事相关领域的学习和工作积累了经验，也激发了对交通数据分析的进一步探索兴趣。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
