@@ -22,6 +22,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [8. "Different Interchange Structures.pdf"](#8-different-interchange-structurespdf)
 - [9. “Research on the Resilience of China's Urban Economies.pdf”](#9-research-on-the-resilience-of-chinas-urban-economiespdf)
 - [10. “Shared Bike Data Analysis.pdf”](#10-shared-bike-data-analysispdf)
+- [11. “Cartography Review.pdf”](#11-cartography-reviewpdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -35,6 +36,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [8. "不同的立交结构.pdf"](#8-不同的立交结构pdf)
 - [9. “中国城市经济韧性研究.pdf”](#9-中国城市经济韧性研究pdf)
 - [10. “共享单车数据分析.pdf”](#10-共享单车数据分析pdf)
+- [11. “地图学综述.pdf”](#11-地图学综述pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -327,6 +329,34 @@ In practical skills, I enhanced data-processing and visualization abilities, lea
 
 This study also made me realize the great value of big-data analysis in urban transportation planning and environmental protection, providing ideas and methods for using data analysis to solve practical urban problems in the future, and sparking my interest in exploring the social applications of data science.
 此次研究也让我认识到大数据分析在城市交通规划和环保领域的重要价值，为今后利用数据分析解决实际城市问题提供了思路和方法，激发了对数据科学在社会应用中的探索兴趣。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+
+# 11. "Cartography Review.pdf"
+# 11. "地图学综述.pdf"
+
+Centering on cartographic principles and the future development of maps, this paper systematically discusses the map-making workflow, exploratory maps, the role of maps in emerging fields, the pan-map concept and practical cases, aiming to clarify the essence, framework and connection with new technologies of cartography.
+本文围绕地图学原理及地图未来发展展开，系统探讨了地图制作流程、探索型地图、地图在新兴领域的作用、泛地图概念及实践案例，旨在梳理地图学的本质、框架及与新技术的关联性。
+
+Analysis of the Map-Making Workflow: Based on cartographic principles, the article sorts out the complete map-making workflow: determine map type (need to clarify mapping method, category, etc., such as by regional scope, scale); determine data source and input methods (including ground-survey data, multi-source remote-sensing data, etc.); determine mathematical projection method and process data (including selection of geographic coordinates, projection mode, scale); conduct cartographic generalization (divided into manual and automatic generalization, involving classification, selection, simplification, etc.); design map symbols and determine the geographic-information symbol model; use digital technology to compile the map; carry out analysis and evaluation (from scientific, artistic angles); perform reproduction and compilation management (including traditional printing, electronic publishing, etc.). Each step explains its significance, reflecting the rigor and systematicness of map-making .
+地图制作流程解析：文章基于地图学原理，梳理出完整的地图制作流程：确定地图类型（需明确成图方法、类别等，如按区域范围、比例尺划分）；确定数据源及输入方法（包括地面测量数据、多源遥感数据等）；确定数学投影方法并处理数据（含地理坐标、投影方式、比例尺的选择）；进行地图概括（分手工和自动概括，涉及分类、选取、简化等）；设计地图符号并确定地理信息符号模型；利用数字化技术汇总地图；开展分析评价（从科学性、艺术性等角度）；进行复制与编制管理（含传统印刷、电子出版等）。每个步骤均阐述了其意义，体现了地图制作的严谨性与系统性。
+
+Analysis of Exploratory Maps: Introduces the concept of exploratory maps, pointing out that its core is the shift in map domination (from author-led to user-led), divided into two trends: data-stable tendency (users explore inherent relationships of data) and data-open tendency (everyone-as-mapper mode). Technically, it needs to combine database and Internet technologies, visualization technologies, and AI technologies for construction; in terms of development trends, exploratory maps are a transitional product of domination relationships, and will evolve toward network maps (highly open modeling methods) and mobile network maps (multi-dimensional, ubiquitous) in the future.
+探索型地图分析：引入探索型地图概念，指出其核心是地图支配关系的转变（从作者主导转向用户主导），分为数据稳定趋向（用户探索数据内在关系）和数据开放趋向（人人制图模式）两类。技术应用上，需结合数据库与互联网技术、可视化技术、人工智能技术搭建；发展趋势上，探索型地图是支配关系过渡产物，未来将向网络地图（建模方法高度开放）、移动网络地图（多维度、泛在化）演进。
+
+The Role of Maps in Emerging Fields: 1) Smart City: A smart city is the intelligent transformation of the tri-space (physical, social, information space); maps serve as a visualization carrier and open-data carrier, providing support for city management and public cognition, and the underlying cartographic theories (e.g., spatial cognition, symbol theory) also inspire smart-city construction. 2) Digital Twin: Digital twin is the technology of simulating entity behavior through digital models; maps can be its application-verification tool (using map causality to correct model distortion) and visualization medium (assisting in displaying modeling processes and results). 3) Metaverse: The metaverse is a virtual-reality system independent of reality; maps within it act as spatial-cognition tools, and their theories also provide references for the visualization framework of the metaverse and the use of geographic information (e.g., “procedural mapping”). 4) Pan-Map Concept and Expansion: Pan-map is the extension and expansion of traditional maps, proposed due to ICT-era technological development, limitations of classical theories, and needs of the public and professionals. It realizes the generalization of geographic information (content and form), domination relationships (increased user participation), and perceptual cognition (diverse visual-artistic expressions). Its framework covers standard maps and map-like graphics; in the future it will construct object-space theory, expression-dimension spectra, and optimize tri-space expression.
+地图在新兴领域的作用：1）智慧城市：智慧城市是三元空间（物理、社会、信息空间）的智慧化转型，地图作为可视化载体和开放数据载体，为城市管理、大众认知提供支撑，其背后的地图学理论（如空间认知、符号理论）也为智慧城市构建提供启发。2）数字孪生：数字孪生是通过数字化模型模拟实体行为的技术，地图可作为其应用检验工具（利用地图因果关系纠正模型失真）和可视化媒介（辅助展示建模过程与结果）。3）元宇宙：元宇宙是独立于现实的虚拟现实系统，地图在其中既作为空间认知工具，其理论也为元宇宙的可视化框架、地理信息运用（如 “程序测绘”）提供参考。4）泛地图概念及拓展：泛地图是传统地图的延伸与拓展，因 ICT 时代技术发展、经典理论局限、大众与专业需求而提出，实现了地理信息（内容、形式泛化）、支配关系（用户参与度提升）、感性认识（多元视觉艺术表现）的泛化。其框架涵盖标准地图和类地图，未来将构建对象空间理论、表达维度谱系，优化三元空间表达。
+
+Practical Case Studies: Five cases—high-speed-rail noise maps, submarine topographic maps, power-grid corrosion maps, etc.—are selected to analyze their production methods and characteristics, indicating expandable directions (e.g., adding exploratory functions, integrating digital-twin technology, enhancing dynamics), demonstrating the potential of new-type maps in technology integration and application scenarios.
+实践案例分析：选取高速铁路噪声地图、海底地形图、电网腐蚀地图等五个案例，分析其制作方法与特点，指出可拓展方向（如加入探索型功能、结合数字孪生技术、提升动态性等），体现了新型地图在技术融合与应用场景上的潜力。
+
+Through this study I gained a systematic understanding of cartography. At the knowledge level, I deeply grasped the complete workflow of map-making and the interconnections of each step, mastered the connotations of emerging concepts such as exploratory maps and pan-maps, and clarified the application logic of maps in smart cities, the metaverse and other fields.
+通过本文研究，我对地图学有了系统性认知。在知识层面，深入理解了地图制作的完整流程及各环节的关联性，掌握了探索型地图、泛地图等新兴概念的内涵，明晰了地图在智慧城市、元宇宙等领域的应用逻辑。
+
+At the capability level, I improved literature sorting and analysis skills, learned to dissect cartographic issues from multiple dimensions (technology, theory, application); through case studies I strengthened the ability to integrate theory and practice, and can propose targeted map optimization directions. Meanwhile, I realized that cartography is not a static discipline but continuously generalizes with technological development, which cultivated my sensitivity and forward-looking thinking toward the frontiers of the discipline.
+在能力层面，提升了文献梳理与分析能力，学会从多维度（技术、理论、应用）剖析地图学问题；通过案例研究，增强了将理论与实践结合的能力，能针对性提出地图优化方向。同时，认识到地图学并非静态学科，其随技术发展不断泛化，这培养了我对学科前沿的敏感性与前瞻性思维。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
