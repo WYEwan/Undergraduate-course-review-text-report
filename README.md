@@ -25,6 +25,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [11. “Cartography Review.pdf”](#11-cartography-reviewpdf)
 - [12. "Urban Traffic System Traffic Flow Observation Report.pdf"](#12-urban-traffic-system-traffic-flow-observation-reportpdf)
 - [13. "Resident Travel OD Calculation.pdf"](#13-resident-travel-od-calculationpdf)
+- [14. "Filter Operator Implementation and Comparison.pdf"](#14-"filter-operator-implementation-and-comparisonpdf")
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -41,6 +42,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [11. “地图学综述.pdf”](#11-地图学综述pdf)
 - [12. “城市交通系统交通流观察报告.pdf”](#12-城市交通系统交通流观察报告pdf)
 - [13. “居民出行OD计算.pdf”](#13-居民出行OD计算pdf)
+- [14. “滤波算子的实现和对比.pdf”](#14-滤波算子的实现和对比pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -415,6 +417,33 @@ In practical ability, I enhanced my capacity to process and analyze spatial data
 
 Moreover, through this assignment, I deeply sensed the close link between theoretical models and practical application, recognized the importance of traffic models in urban planning, accumulated experience for future study and work in related fields, and further stimulated my interest in exploring traffic data analysis.
 此外，通过本次作业，我深刻体会到理论模型与实际应用的紧密联系，认识到交通模型在城市规划中的重要性，为今后从事相关领域的学习和工作积累了经验，也激发了对交通数据分析的进一步探索兴趣。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 14. "Filter Operator Implementation and Comparison.pdf"
+# 14. "滤波算子的实现和对比.pdf"
+
+This paper centers on image filtering algorithms, detailing in depth the implementation principles, effects, and comparative analyses of various common filters, aiming to explore the applicability of different algorithms in remote-sensing image processing.
+本文围绕图像滤波算法展开，详细介绍了多种常见滤波算法的实现原理、效果及对比分析，旨在探讨不同算法在遥感图像处理中的适用性。
+
+Filtering Algorithms Overview：Image filtering is a key technique in remote-sensing image processing that can improve image quality, remove noise, enhance details, or highlight features, directly influencing the accuracy of subsequent processing. Common algorithms include mean filtering, median filtering, Roberts cross-gradient operator filtering, Sobel operator filtering, Laplacian operator filtering, and Gaussian filtering. Based on different mathematical principles, they achieve denoising, edge detection, and other functions by adjusting the kernel and parameters.
+滤波算法概述：图像滤波是遥感图像处理的重要技术，可改善图像质量、去除噪声、增强细节或突出特征，直接影响后续处理的精度。常见算法包括均值滤波、中值滤波、Roberts 交叉梯度算子滤波、Sobel 算子滤波、拉普拉斯算子滤波和高斯滤波，它们基于不同数学原理，通过调整滤波核和参数实现去噪、边缘检测等功能。
+
+Detailed Explanations of Each Filtering Algorithm：1）Mean Filtering: Replaces a pixel with the average of its neighborhood; smooths the image and reduces high-frequency noise, with high computational efficiency, but blurs edges and details and performs poorly against impulse noise. The larger the window, the more blurred the image and the longer the runtime. 2）Median Filtering: Replaces the current pixel with the median of its neighborhood; effectively removes impulse noise such as salt-and-pepper noise while better preserving edges, but is less effective against Gaussian noise and has higher computational complexity. As the window size increases, denoising improves but so does the time cost. 3） Roberts Cross-Gradient Operator Filtering: Uses first-order derivatives, computing horizontal and vertical gradients through two convolution kernels to highlight edges; efficient at detecting fine edges but sensitive to noise, and excessive sharpening may amplify noise. 4） Sobel Operator Filtering: Uses weighted convolution kernels to compute gradients, offering better noise immunity than the Roberts operator and suitable for detecting edges over larger areas; applicable to images with moderate noise, though edges may be less sharp. 5） Laplacian Operator Filtering: Detects edges based on second-order derivatives, sensitive to edges and suitable for sharpening blurred images, but highly susceptible to noise and prone to producing false edges; denoising is usually required beforehand. 6） Gaussian Filtering: Uses Gaussian-function-weighted averaging of neighborhood pixels, effective at smoothing Gaussian noise, better preserving details than mean filtering, but still blurs edges and performs poorly against impulse noise. The larger the kernel or the larger the standard deviation, the wider the blurring range.
+各滤波算法详解：1）均值滤波：通过取像素邻域平均值替换该像素，平滑图像、减少高频噪声，计算效率高，但会模糊边缘和细节，对脉冲噪声效果差。窗口越大，图像越模糊，运行时间越长。2）中值滤波：用邻域像素中值代替当前像素，能有效去除椒盐噪声等脉冲噪声，较好保留边缘，但对高斯噪声效果一般，计算复杂度较高，窗口增大时去噪效果提升但耗时增加。3）Roberts 交叉梯度算子滤波：基于一阶导数，通过两个卷积核计算水平和垂直梯度以突出边缘，检测细小边缘效率高，但对噪声敏感，锐化强度过高易增强噪声。4）Sobel 算子滤波：使用加权卷积核计算梯度，抗噪声能力优于 Roberts 算子，适合检测较大范围边缘，对中等噪声图像适用，但边缘可能不够锐利。5）拉普拉斯算子滤波：基于二阶导数检测边缘，对边缘敏感，适合锐化模糊图像，但极易受噪声影响，可能产生伪边缘，通常需先去噪。6）高斯滤波：基于高斯函数加权平均邻域像素，平滑高斯噪声效果好，比均值滤波更能保留细节，但会模糊边缘，对脉冲噪声效果差，核越大或标准差越大，模糊范围越广。
+
+Algorithm Comparison and Summary：Comparative analysis shows that mean and Gaussian filtering are suitable for denoising: the former is faster, whereas the latter better preserves details. Median filtering excels at handling impulse or salt-and-pepper noise. Roberts and Sobel operators are apt for edge detection, with the latter offering stronger noise immunity. The Laplacian operator is suitable for enhancing edge details but is sensitive to noise. For remote-sensing images with Gaussian noise, Gaussian filtering is optimal; when impulse or salt-and-pepper noise is present, median filtering is best; for edge extraction, choose the Roberts or Sobel operator according to noise conditions.
+算法对比与总结：对比分析显示，均值滤波和高斯滤波适用于去噪，前者计算快，后者保留细节更好；中值滤波擅长处理脉冲或椒盐噪声；Roberts 和 Sobel 算子适合边缘检测，后者抗噪声能力更强；拉普拉斯算子适合增强边缘细节但对噪声敏感。对于含高斯噪声的遥感图像，高斯滤波为优选；含脉冲或椒盐噪声时，中值滤波最佳；边缘提取可根据噪声情况选择 Roberts 或 Sobel 算子。
+
+Through studying these filtering algorithms, I improved both theoretically and practically. Theoretically, I gained deep understanding of the principles, applicable scenarios, advantages, and disadvantages of different filters, clarifying how parameter adjustments affect results—such as how window size and sharpening intensity alter denoising and edge-detection outcomes.
+通过研究这些滤波算法，我在理论和实践层面均有提升。理论上，深入理解了不同滤波算法的原理、适用场景及优缺点，明确了参数调整对效果的影响，如窗口大小、锐化强度等如何改变图像去噪和边缘检测效果。
+
+Practically, I mastered the implementation logic of each algorithm. By comparing the results of different filters, I learned to select the appropriate method according to specific needs—for example, prioritizing median filtering for salt-and-pepper noise and considering the Sobel operator for edge detection. Meanwhile, analyzing algorithmic computational complexity made me realize the importance of balancing efficiency and effectiveness in real applications.
+实践中，掌握了各算法的实现逻辑，通过对比不同算法处理结果，学会了根据具体需求选择合适滤波方法，例如处理椒盐噪声优先选中值滤波，边缘检测可考虑 Sobel 算子。同时，对算法计算复杂度的分析让我认识到效率与效果的平衡在实际应用中的重要性。
+
+This study also let me appreciate the critical role of filtering technology in remote-sensing image processing, accumulating knowledge and experience for future handling of actual image data and optimization of image-processing workflows, and sparking my interest in exploring more complex filtering algorithms.
+此次研究也让我体会到滤波技术在遥感图像处理中的关键作用，为今后处理实际图像数据、优化图像处理流程积累了知识和经验，激发了对更复杂滤波算法的探索兴趣。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
