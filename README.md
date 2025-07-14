@@ -21,6 +21,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [7. "A Small Spatial Analysis Case: Spatial Autocorrelation.pdf"](#7-a-small-spatial-analysis-case-spatial-autocorrelationpdf)
 - [8. "Different Interchange Structures.pdf"](#8-different-interchange-structurespdf)
 - [9. “Research on the Resilience of China's Urban Economies.pdf”](#9-research-on-the-resilience-of-chinas-urban-economiespdf)
+- [10. “Shared Bike Data Analysis.pdf”](#10-shared-bike-data-analysispdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -33,6 +34,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例空间自相关pdf)
 - [8. "不同的立交结构.pdf"](#8-不同的立交结构pdf)
 - [9. “中国城市经济韧性研究.pdf”](#9-中国城市经济韧性研究pdf)
+- [10. “共享单车数据分析.pdf”](#10-共享单车数据分析pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -298,6 +300,33 @@ Methodologically, I learned how to refine existing indicator calculations for gr
 Additionally, I recognized the close ties between urban economic resilience and factors like industrial structure and fiscal conditions, as well as their guiding significance for urban planning and high-quality economic development. This provides a framework and approach for future multidimensional urban economic analysis.
 同时，认识到城市经济韧性与产业结构、财政状况等因素的密切联系，及其对城市规划和经济高质量发展的指导意义，为今后从多维度分析城市经济问题提供了思路与框架。
 
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 10. “Shared Bike Data Analysis.pdf”
+# 10. “共享单车数据分析.pdf”
+
+This paper is the final practical report for the course Introduction to Data Science and Data Mining, jointly completed by seven students including Wang Yi and Yu Xintong. Based on one-day shared-bike order data in Shanghai, and integrating POI data and road-network data, it explores the travel patterns and carbon-reduction benefits of shared bikes in Shanghai.
+本文是数据科学与数据挖掘导论课程的期末实践报告，由王逸、余欣潼等七人合作完成，以上海市某一天的共享单车订单数据为基础，结合 POI 数据和路网数据，探究了上海市共享单车的出行模式及碳减排效益。
+
+Research Background and Framework: As a mature public-transport facility, shared bikes can solve the “last-mile” problem, and also alleviate urban issues such as traffic congestion and air pollution. Existing studies mostly focus on travel patterns and environmental benefits; on this basis, this paper uses two frameworks—“basic analysis based on order data” and “trajectory-flow patterns and carbon-reduction-benefit analysis”—and employs data-mining methods such as DBSCAN, K-means, and PCA.
+研究背景与框架：共享单车作为成熟的公共交通设施，能解决 “最后一公里” 问题，还可缓解交通拥堵、空气污染等城市问题。现有研究多聚焦出行模式和环境效益，本文在此基础上，通过 “基于订单数据的基本分析”“轨迹流模式和碳减排效益分析” 两大框架，结合 DBSCAN、K-means、PCA 等数据挖掘方法展开研究。
+
+Basic Analysis Based on Order Data: Both order duration and travel distance are dominated by short trips; orders of 5–10 min and 500–1000 m are the most numerous. Departure times cluster in morning peak (7–9 a.m.) and evening peak (4–8 p.m.), with sharper variation in the morning. During peak hours, parking points concentrate in the city center, decreasing in a ring-shaped diffusion; small-scale clusters appear in the south and southwest. Using DBSCAN to identify parking clusters, we find more parking points in Puxi with a large core area, while Pudong has fewer; an OD map shows that cycling flows are mainly confined to the Puxi core.
+基于订单数据的基本分析：订单持续时间和行驶距离均以短程为主，5-10 分钟、500-1000 米的订单数量最多；出发时刻集中在早高峰（7-9 点）和晚高峰（16-20 点），早高峰变化更剧烈。高峰期停车点主要集中在市中心，呈环形扩散递减趋势，南部和西南部有小规模集中分布。使用 DBSCAN 算法识别停车聚集区域，发现浦西停车点多且核心区域范围大，浦东较少；OD 图显示骑行流动主要局限在浦西核心区。
+
+Trajectory-Flow Patterns and Carbon-Reduction-Benefit Analysis: Based on distance and geographic scope, clustering reveals that long-distance rides mostly occur in suburban and peripheral areas, medium- and short-distance rides are concentrated in the city, and relatively closed trajectory areas exist in the urban core; cross-river routes are few and small in scope, while popular routes concentrate on main urban arterials and cross-river roads. On the spatiotemporal scale, cycling activity peaks during morning and evening rush hours; trajectory centroids shift with time slots, and morning peak sees more unlock points in the city center, reflecting commuting demand. Combined with POI data, POI types near parking points during morning and evening peaks are mainly company/enterprise and residential/accommodation, indicating that shared bikes are mainly used for commuting. For carbon reduction, four calculation models are referenced; by selecting the middle result and computing the arithmetic mean, it is found that the southern suburbs show significant carbon reduction due to medium- and long-distance routes.
+轨迹流模式和碳减排效益分析：基于距离和地理范围，通过聚类划分发现长距离骑行多在郊区及市区边缘，中短距离在市区且更集中，市区存在相对闭合的轨迹区域，跨江路线少且范围小，流行路线集中在市区主干道和跨江道路。时空尺度上，骑行活跃度早晚高峰最高，轨迹重心随时段变化，早高峰市中心开锁点增多，反映通勤需求。结合 POI 数据，早高峰和晚高峰停车点附近主要 POI 类型为公司企业和住宅住宿，说明共享单车主要用于上下班通勤。碳减排方面，参考四种计算模式，选取居中结果计算算术平均，发现南部郊区因中长途路线多，碳减排显著。
+
+Through participation in this study, I grew in multiple aspects. At the knowledge level, I gained deep insight into shared-bike travel characteristics and their correlation with urban space and residents’ activities, mastered the application of data-mining algorithms such as DBSCAN and K-means in spatial-data analysis, and clarified relevant methods and reference standards for calculating carbon-reduction benefits.
+通过参与本次研究，我在多方面获得成长。知识层面，深入了解了共享单车的出行特征及其与城市空间、居民活动的关联，掌握了 DBSCAN、K-means 等数据挖掘算法在空间数据分析中的应用，明晰了碳减排效益计算的相关方法和参考标准。
+
+In practical skills, I enhanced data-processing and visualization abilities, learned to integrate and analyze order data, POI data, etc. with various tools, and can present research results intuitively through charts. In teamwork, I strengthened communication and division-of-labor skills, jointly completing tasks from data collection and analysis to report writing, and deeply experienced the importance of teamwork for efficient research completion.
+实践能力上，提升了数据处理和可视化技能，学会了运用多种工具对订单数据、POI 数据等进行整合分析，能通过图表直观呈现研究结果。在团队协作中，增强了沟通与分工协作能力，共同完成数据收集、分析、报告撰写等任务，深刻体会到团队合作对高效完成研究的重要性。
+
+This study also made me realize the great value of big-data analysis in urban transportation planning and environmental protection, providing ideas and methods for using data analysis to solve practical urban problems in the future, and sparking my interest in exploring the social applications of data science.
+此次研究也让我认识到大数据分析在城市交通规划和环保领域的重要价值，为今后利用数据分析解决实际城市问题提供了思路和方法，激发了对数据科学在社会应用中的探索兴趣。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
