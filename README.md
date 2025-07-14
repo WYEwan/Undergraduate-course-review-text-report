@@ -20,6 +20,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [6. “A Small Case Study of Spatial Analysis.pdf”](#6-a-small-case-study-of-spatial-analysispdf)
 - [7. "A Small Spatial Analysis Case: Spatial Autocorrelation.pdf"](#7-a-small-spatial-analysis-case-spatial-autocorrelationpdf)
 - [8. "Different Interchange Structures.pdf"](#8-different-interchange-structurespdf)
+- [9. “Research on the Resilience of China's Urban Economies.pdf”](#9-research-on-the-resilience-of-chinas-urban-economiespdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -31,6 +32,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [6. “一个小的空间分析案例.pdf”](#6-一个小的空间分析案例pdf)
 - [7. “一个小的空间分析案例：空间自相关.pdf”](#7-一个小的空间分析案例空间自相关pdf)
 - [8. "不同的立交结构.pdf"](#8-不同的立交结构pdf)
+- [9. “中国城市经济韧性研究.pdf”](#9-中国城市经济韧性研究pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -267,6 +269,35 @@ In terms of analytical ability, I have learned to interpret the rationality of i
 
 This study has also made me deeply appreciate the close connection between urban transportation facility design and urban development. It has accumulated practical knowledge for future attention to urban planning and traffic engineering fields and sparked my interest in exploring the optimization of urban transportation systems.
 此次研究也让我深刻体会到城市交通设施设计与城市发展的紧密联系，为今后关注城市规划和交通工程领域积累了实践认知，激发了对优化城市交通系统的探索兴趣。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 9. “Research on the Resilience of China's Urban Economies.pdf”
+# 9. “中国城市经济韧性研究.pdf”
+
+This paper focuses on the economic resilience of Chinese cities, integrating macroeconomic indicators and economic shock theory to explore the correlation of influencing factors and their geographical distribution patterns.
+本文聚焦中国城市经济韧性，结合宏观经济指标和经济冲击理论，探究其因素相关性与地理分布规律。
+
+Research Background and Theoretical Foundation: The article traces the origin of the concept of "resilience," introduces the five-dimensional framework of urban resilience, and defines urban economic resilience as the capacity of an urban economic system to resist and recover from crises. Against the backdrop of China's transition from high-speed growth to high-quality development, it underscores the forward-looking significance of studying urban economic resilience. It reviews relevant domestic and international research, summarizing how different literatures understand urban economic resilience, along with their analytical algorithms and indicator variables.
+研究背景与理论基础：文章从 “韧性” 概念起源入手，介绍了城市韧性的五维维度及城市经济韧性的定义 —— 城市经济系统面对危机的抵御与恢复能力。结合中国经济从高速增长转向高质量发展的背景，强调研究城市经济韧性的前瞻意义，并梳理了国内外相关研究，总结了不同文献对城市经济韧性的理解、分析算法及指标变量。
+
+Calculation of the Urban Economic Resilience Index and Spatial Analysis: An improved method is used to calculate the index, based on per capita GDP, independently measuring shock resistance (relative difference in per capita GDP before and after a shock) and recovery capacity (relative difference in per capita GDP before and after recovery), avoiding distortions from population or city size effects and subjective influences. Data visualization reveals that urban per capita GDP generally fluctuates, with most cities declining in 2020 before rebounding. Shock resistance follows a power-law distribution (mostly medium-low values), while recovery capacity follows a linear distribution (a few cities recover slowly). Geographically, high shock resistance clusters in Hunan-Jiangxi and Northeast China, while recovery capacity clusters in the Pearl River Delta and Yangtze River Delta, with most central and western regions showing low values.
+城市经济韧性指数求解与空间分析：采用改进的方法求解指数，以人均 GDP 为基础，分别独立计算抗冲击能力（冲击前后人均 GDP 相对差异）和恢复能力（恢复前后人均 GDP 相对差异），避免人口和城市规模效应及主观因素影响。通过数据可视化发现，城市人均 GDP 普遍有波动，2020 年多数城市下降后回升；抗冲击能力呈幂律分布（中低值城市居多），恢复能力呈线性分布（少数城市恢复缓慢）；地理分布上，抗冲击能力在湘赣和东北地区有高值集聚区，恢复能力在珠三角、长三角等地区集聚，中西部多为低值区。
+
+Factor Correlation and Spatial Analysis: Using Pearson, Spearman, and Kendall correlation coefficients, the analysis finds that economic indicators exhibit internal patterns (primary and secondary industry shares correlate weakly and negatively with others, tertiary industry share correlates positively, and most indicators correlate positively within themselves). Regarding correlations between economic indicators and resilience indices, recovery capacity shows stronger correlations with indicators than shock resistance. Shock resistance is mostly negatively correlated with indicators except tertiary industry share, while recovery capacity is mostly positively correlated except for primary and secondary industry shares.因素相关性与空间分析：运用 Pearson、Spearman、Kendall 三种相关系数，分析发现经济指标内部存在规律（第一、二产业占比与其他指标相关性小且负相关，第三产业占比正相关，多数指标内部正相关）；经济指标与韧性指数相关性中，恢复能力与指标相关性更强，抗冲击能力除第三产业占比外多呈负相关，恢复能力除第一、二产业占比外多呈正相关。
+
+Analysis Based on the Economic Shock Process: Economic shocks are categorized as internal (e.g., natural disasters) or external (e.g., changes in international conditions), with differing impact processes on urban economies. The urban economic recovery process is also analyzed, distinguishing external recovery (shock weakening) from internal recovery (structural adjustment). Combining these analyses, the paper links urban economic conditions (economic scale, industrial structure, etc.) with resilience indicators, explaining possible reasons for geographical distribution differences (e.g., coastal cities' strong recovery capacity stems from rapid industrial transformation).基于经济冲击流程的分析：将经济冲击分为内部（自然灾害等）和外部（国际形势变化等），阐述其对城市经济的不同影响流程；同时分析了城市经济恢复流程，指出外部恢复（冲击减弱）与内部恢复（结构调整）的区别。结合分析总结了城市经济情况（经济规模、产业结构等）与韧性指标的联系，解释了地理分布差异的可能原因（如沿海城市恢复能力强源于产业转型快等）。
+
+Through this research, I gained a systematic understanding of urban economic resilience. Theoretically, I deepened my grasp of the concept, measurement methods, and the mechanisms by which economic shocks affect urban economies, while mastering the application scenarios and differences of various correlation coefficients in data analysis.
+通过本次研究，我对城市经济韧性有了系统认知。在理论层面，深入理解了城市经济韧性的内涵、衡量方法及经济冲击对城市经济的影响机制，掌握了不同相关系数在数据分析中的应用场景与差异。
+
+Methodologically, I learned how to refine existing indicator calculations for greater rationality—such as using per capita GDP and independently calculating shock resistance and recovery capacity to reduce interference. I also acquired skills in data visualization and spatial analysis, enabling intuitive presentation of distribution patterns and correlations through charts, enhancing my ability to process and interpret macroeconomic data.
+在研究方法上，学会了如何改进现有指标计算方法以提升合理性，如通过人均 GDP 和独立计算抗冲击与恢复能力减少干扰；掌握了数据可视化和空间分析手段，能通过图表直观呈现分布规律与相关性，增强了对宏观经济数据的处理与解读能力。
+
+Additionally, I recognized the close ties between urban economic resilience and factors like industrial structure and fiscal conditions, as well as their guiding significance for urban planning and high-quality economic development. This provides a framework and approach for future multidimensional urban economic analysis.
+同时，认识到城市经济韧性与产业结构、财政状况等因素的密切联系，及其对城市规划和经济高质量发展的指导意义，为今后从多维度分析城市经济问题提供了思路与框架。
+
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
