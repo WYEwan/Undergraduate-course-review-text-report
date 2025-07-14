@@ -23,6 +23,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [9. “Research on the Resilience of China's Urban Economies.pdf”](#9-research-on-the-resilience-of-chinas-urban-economiespdf)
 - [10. “Shared Bike Data Analysis.pdf”](#10-shared-bike-data-analysispdf)
 - [11. “Cartography Review.pdf”](#11-cartography-reviewpdf)
+- [12. "Urban Traffic System Traffic Flow Observation Report.pdf"](#12-urban-traffic-system-traffic-flow-observation-reportpdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -37,6 +38,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [9. “中国城市经济韧性研究.pdf”](#9-中国城市经济韧性研究pdf)
 - [10. “共享单车数据分析.pdf”](#10-共享单车数据分析pdf)
 - [11. “地图学综述.pdf”](#11-地图学综述pdf)
+- [12. “城市交通系统交通流观察报告.pdf”](#12-城市交通系统交通流观察报告pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -357,6 +359,33 @@ Through this study I gained a systematic understanding of cartography. At the kn
 
 At the capability level, I improved literature sorting and analysis skills, learned to dissect cartographic issues from multiple dimensions (technology, theory, application); through case studies I strengthened the ability to integrate theory and practice, and can propose targeted map optimization directions. Meanwhile, I realized that cartography is not a static discipline but continuously generalizes with technological development, which cultivated my sensitivity and forward-looking thinking toward the frontiers of the discipline.
 在能力层面，提升了文献梳理与分析能力，学会从多维度（技术、理论、应用）剖析地图学问题；通过案例研究，增强了将理论与实践结合的能力，能针对性提出地图优化方向。同时，认识到地图学并非静态学科，其随技术发展不断泛化，这培养了我对学科前沿的敏感性与前瞻性思维。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 12. "Urban Traffic System Traffic Flow Observation Report.pdf"
+# 12. "城市交通系统交通流观察报告.pdf"
+
+This report is an observation report on the traffic organization and traffic flow of the west-gate road intersection of Shenzhen University (the junction of Nanhai Avenue and Taoyuan Road). Through detailed analysis of the intersection, it presents its traffic conditions and provides reference for planning improvements.
+本文是关于深圳大学西门道路交叉口（南海大道与桃园路交接处）交通组织与交通流的观测报告，旨在通过对该交叉口的详细分析，呈现其交通状况并为规划改进提供参考。
+
+Intersection Structure Analysis: The report meticulously draws the intersection plan, cross-sections in each direction (north-south, east-west, and east-side semi-circular road), longitudinal section and ramp cross-section, illustrating lane distribution, width, isolation facilities and surrounding green belts. For example, the north-south road includes motor lanes, non-motor lanes, sidewalks and green belts, with the dimensions and layout of each part specified; satellite images and street-view images are integrated to present the actual spatial form of the intersection. Nanhai Avenue here has a depressed tunnel section, with the upper level being a bridge deck, constituting a complex three-dimensional traffic structure.
+交叉口结构分析：报告详细绘制了交叉口的平面图、各方向（南北向、东西向、东侧半环形道）的断面图、纵断面图及匝道断面图，展示了道路的车道分布、宽度、隔离设施及周边绿化带等情况。例如，南北向道路包含机动车道、非机动车道、人行道及绿化带等，明确了各部分的尺寸和布局；同时结合卫星图像和街景图像，直观呈现了交叉口的实际空间形态，南海大道在此处有一段下沉式隧道，上层为桥面，构成了复杂的立体交通结构。
+
+Traffic Flow Analysis: The morning and evening peak traffic flow conditions are analyzed, including total flow analysis charts (marked with significant hot and cold flow directions), bar charts of vehicle-type flow distribution (covering small passenger cars, large passenger cars, small trucks, large trucks, non-motor vehicles and pedestrians). Flow curve variation graphs show the changing patterns of traffic volume for different vehicle types and pedestrians at different times and in different directions (south side, north side); peak hour factors (PHF) and other indicators are calculated to reflect the fluctuation characteristics of traffic flow during peak hours. Results indicate that the morning and evening peak flows differ, some directions are significant hot spots, and among motor vehicles small passenger cars dominate the volume.
+交通流量分析：重点分析了早高峰和晚高峰的交通流量情况，包括总流量分析图（标注显著热点和冷点流向）、分车型流量分布柱状图（涵盖小客车、大客车、小货车、大货车、非机动车及行人）。通过流量曲线变化图展示了不同时段、不同方向（南侧、北侧）各类车辆及行人的流量变化规律，并计算了高峰小时系数（PHF）等指标，反映了高峰时段交通流量的波动特征。结果显示，早晚高峰流量存在差异，部分流向为显著热点，机动车中以小客车流量为主。
+
+Basic Information and Improvement Suggestions: Basic information of the intersection is investigated, including its location, surrounding metro stations (Line 1 Taoyuan Station), bus routes and stops, important facilities (Shenzhen University, Nanshan District People’s Hospital, etc.) and vehicle origin (associated major roads). Based on the observations, attribution analysis is conducted and traffic planning improvement suggestions are proposed, providing directions for optimizing the traffic organization of the intersection.
+基础信息与改进建议：调研了交叉口的基本信息，包括位置、周边地铁站（1 号线桃园站）、公交线路及站点、重要设施（深圳大学、南山区人民医院等）和车辆来源情况（关联的主要道路）。基于观测结果，进行了归因分析并提出了交通规划改进建议，为优化该交叉口的交通组织提供了方向。
+
+By participating in this traffic flow observation study, I gained an intuitive and in-depth understanding of urban road intersection traffic organization and flow characteristics. On the knowledge level, I learned about the structural components of an intersection, traffic flow analysis methods and related indicators (such as peak hour factor), mastered how to present traffic data clearly through charts, and understood the relationship between traffic facility layout and traffic flow.
+通过参与本次交通流观测研究，我对城市道路交叉口的交通组织和流量特征有了直观且深入的认识。在知识层面，了解了交叉口的结构组成、交通流量的分析方法及相关指标（如高峰小时系数），掌握了如何通过图表清晰呈现交通数据，理解了交通设施布局与交通流之间的关联。
+
+In practical ability, I enhanced skills in data collection, organization and visualization, learned to analyze traffic conditions by combining maps and on-site images, and cultivated the ability to summarize patterns from complex traffic phenomena. At the same time, through team division of labor (such as drawing charts, writing text, and investigating information), I strengthened team collaboration awareness and communication skills, and recognized the importance of multi-party collaboration for completing comprehensive research.
+在实践能力上，提升了数据收集、整理和可视化的技能，学会了结合地图和实地图像分析交通状况，培养了从复杂交通现象中总结规律的能力。同时，通过团队分工协作（如绘制图表、撰写文字、调研信息），增强了团队合作意识和沟通能力，认识到多方协作对于完成综合性研究的重要性。
+
+This study also made me realize the complexity and importance of traffic planning. A reasonable traffic organization scheme can effectively improve traffic efficiency, and it has accumulated practical experience for paying attention to urban traffic issues and proposing optimization suggestions in the future.
+此次研究也让我意识到交通规划的复杂性和重要性，一个合理的交通组织方案能有效提升通行效率，为今后关注城市交通问题、提出优化建议积累了实践经验。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
