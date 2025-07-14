@@ -26,6 +26,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [12. "Urban Traffic System Traffic Flow Observation Report.pdf"](#12-urban-traffic-system-traffic-flow-observation-reportpdf)
 - [13. "Resident Travel OD Calculation.pdf"](#13-resident-travel-od-calculationpdf)
 - [14. "Filter Operator Implementation and Comparison.pdf"](#14-filter-operator-implementation-and-comparisonpdf)
+- [15. "Guangdong-Hong Kong-Macao Greater Bay Area Urban Cultural Spatial Distribution and Pattern.pdf"](#15-guangdong-hong-kong-macao-greater-bay-area-urban-cultural-spatial-distribution-and-patternpdf)
 
 ### 中文目录
 - [返回页面顶部](#返回页面顶部)
@@ -43,6 +44,7 @@ This project provides non-programming content from my undergraduate studies, suc
 - [12. “城市交通系统交通流观察报告.pdf”](#12-城市交通系统交通流观察报告pdf)
 - [13. “居民出行OD计算.pdf”](#13-居民出行OD计算pdf)
 - [14. “滤波算子的实现和对比.pdf”](#14-滤波算子的实现和对比pdf)
+- [15. “粤港澳大湾区城市文化空间分布及格局.pdf”](#15-粤港澳大湾区城市文化空间分布及格局pdf)
 
 # 1. "AGB Time Series Analysis Paper Interpretation.pdf"
 # 1. "AGB时序分析论文解读.pdf"
@@ -444,6 +446,30 @@ Practically, I mastered the implementation logic of each algorithm. By comparing
 
 This study also let me appreciate the critical role of filtering technology in remote-sensing image processing, accumulating knowledge and experience for future handling of actual image data and optimization of image-processing workflows, and sparking my interest in exploring more complex filtering algorithms.
 此次研究也让我体会到滤波技术在遥感图像处理中的关键作用，为今后处理实际图像数据、优化图像处理流程积累了知识和经验，激发了对更复杂滤波算法的探索兴趣。
+
+- [Back to the top of the page](#back-to-the-top-of-the-page)
+- [返回页面顶部](#返回页面顶部)
+
+# 15. "Guangdong-Hong Kong-Macao Greater Bay Area Urban Cultural Spatial Distribution and Pattern.pdf"
+# 15. "粤港澳大湾区城市文化空间分布及格局.pdf"
+
+Taking the Guangdong-Hong Kong-Macao Greater Bay Area as the research object, this paper combines GIS technology and POI big data to explore the distribution and pattern of urban cultural space.
+本文以粤港澳大湾区为研究对象，结合 GIS 技术和 POI 大数据，探究城市文化空间分布及格局。
+
+Firstly, starting from national official documents, it analyzes the macro positioning and planning of culture and urban branding in the Guangdong-Hong Kong-Macao Greater Bay Area, such as the different cultural positioning of each city in the Outline Development Plan for the Guangdong-Hong Kong-Macao Greater Bay Area and the Cultural and Tourism Development Plan for the Guangdong-Hong Kong-Macao Greater Bay Area, with Guangzhou designated as the “Lingnan Cultural Center” and Hong Kong focusing on building a creative capital blending Chinese and Western elements.
+首先，从国家官方文件切入，分析粤港澳大湾区文化和城市品牌建设的宏观定位与规划，如《粤港澳大湾区发展纲要》和《粤港澳大湾区文化和旅游发展规划》对各城市文化建设的不同定位，广州被定为 “岭南文化中心”，香港侧重中西合璧的创意之都建设等。
+
+Secondly, POI data processing and analysis are carried out, including data acquisition, cleaning, and classification (dividing urban culture into consumption, tourism, catering, and other types). The proportion of cultural industry types in each city is studied, finding that Hong Kong and Macao have higher proportions of POIs in sports, tourism, and entertainment, while Macao has the highest proportion of catering POIs. Using the DBSCAN algorithm for cluster analysis, cluster distribution maps of different cultural types are drawn, showing that cultural clusters are mainly concentrated in Guangzhou, Shenzhen, and Hong Kong, forming a super-large cultural cluster belt, while other cities are mostly scattered sporadically in the city center.
+其次，进行 POI 数据处理与分析，包括数据获取、清洗及分类（将城市文化分为消费、旅游、饮食等类型），研究各城市文化产业类型占比，发现港澳在运动、旅游、娱乐类 POI 占比更高，澳门饮食类 POI 占比居首。通过 DBSCAN 算法进行聚类分析，绘制不同文化类型的集群分布图，显示文化集群主要集中在广州、深圳和香港，形成超大文化集群带，其他城市多零星分布于市中心。
+
+Finally, spatial correlation analysis is conducted, revealing that catering and shopping consumption cultural clusters have high correlation, while tourist attractions have low correlation with other types. Comparing the patterns of Guangzhou, Shenzhen, and Hong Kong with other cities, the cultural cluster distribution is divided into four types, such as dense and separated type and dense mixed type, revealing significant spatial imbalance in the cultural clusters of the Greater Bay Area.
+最后，进行空间相关性分析，发现餐饮与购物消费文化集群相关性高，旅游景点类与其他类型相关性低；对比广深港与其他城市的格局，将文化集群分布划分为密集而相互分离型、密集混合型等四种类型，揭示大湾区文化集群存在显著空间不均衡性。
+
+Through this research, I gained a deeper mastery of the application of GIS technology in urban spatial analysis, learning to use POI data and clustering algorithms to analyze the distribution patterns of geographical elements. In data processing, I improved my abilities in data cleaning, classification, and visualization, and can use spatial analysis methods to reveal the internal relationships and pattern characteristics of cultural space.
+通过本次研究，我对 GIS 技术在城市空间分析中的应用有了更深入的掌握，学会了利用 POI 数据和聚类算法分析地理要素分布规律。在数据处理方面，提升了数据清洗、分类及可视化的能力，能通过空间分析方法揭示文化空间的内在关联与格局特征。
+
+At the same time, my understanding of the cultural construction of the Guangdong-Hong Kong-Macao Greater Bay Area was deepened, recognizing the regional imbalance in cultural development and the spatial connections of different cultural types, providing a data-supported approach for regional cultural planning. This research also cultivated my thinking in combining macro policies with micro data analysis, accumulating practical experience for future similar spatial studies.
+同时，加深了对粤港澳大湾区文化建设的理解，认识到区域内文化发展的不均衡性及不同文化类型的空间关联，为区域文化规划提供了数据支撑思路。此次研究也培养了将宏观政策与微观数据结合分析的思维，为今后开展类似空间研究积累了实践经验。
 
 - [Back to the top of the page](#back-to-the-top-of-the-page)
 - [返回页面顶部](#返回页面顶部)
